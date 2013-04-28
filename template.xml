@@ -409,8 +409,8 @@ function createSummaryAndThumb(pID){
 <div id='content' role='main'>    
                 
 <b:section class='mainblog' id='mainblog' showaddelement='no'>
-  <b:widget id='Blog1' locked='true' title='Blog Posts' type='Blog'>
-    <b:includable id='main' var='top'>
+      <b:widget id='Blog1' locked='true' title='Blog Posts' type='Blog'>
+        <b:includable id='main' var='top'>
   <b:if cond='data:mobile == &quot;false&quot;'>
 
     <!-- posts -->
@@ -500,14 +500,14 @@ function createSummaryAndThumb(pID){
   </b:if>
 
 </b:includable>
-    <b:includable id='backlinkDeleteIcon' var='backlink'>
+        <b:includable id='backlinkDeleteIcon' var='backlink'>
   <span expr:class='&quot;item-control &quot; + data:backlink.adminClass'>
     <a expr:href='data:backlink.deleteUrl' expr:title='data:top.deleteBacklinkMsg'>
       <img src='//www.blogger.com/img/icon_delete13.gif'/>
     </a>
   </span>
 </b:includable>
-    <b:includable id='backlinks' var='post'>
+        <b:includable id='backlinks' var='post'>
   <a name='links'/><h4><data:post.backlinksLabel/></h4>
   <b:if cond='data:post.numBacklinks != 0'>
     <dl class='comments-block' id='comments-block'>
@@ -533,7 +533,7 @@ function createSummaryAndThumb(pID){
     <a class='comment-link' expr:href='data:post.createLinkUrl' expr:id='data:widget.instanceId + &quot;_backlinks-create-link&quot;' target='_blank'><data:post.createLinkLabel/></a>
   </p>
 </b:includable>
-    <b:includable id='comment-form' var='post'>
+        <b:includable id='comment-form' var='post'>
   <div class='comment-form'>
     <a name='comment-form'/>
     <b:if cond='data:mobile'>
@@ -557,7 +557,7 @@ function createSummaryAndThumb(pID){
     </script>
   </div>
 </b:includable>
-    <b:includable id='commentDeleteIcon' var='comment'>
+        <b:includable id='commentDeleteIcon' var='comment'>
   <span expr:class='&quot;item-control &quot; + data:comment.adminClass'>
     <b:if cond='data:showCmtPopup'>
       <div class='goog-toggle-button'>
@@ -570,7 +570,7 @@ function createSummaryAndThumb(pID){
     </b:if>
   </span>
 </b:includable>
-    <b:includable id='comment_count_picker' var='post'>
+        <b:includable id='comment_count_picker' var='post'>
   <b:if cond='data:post.forceIframeComments'>
     <span class='cmt_count_iframe_holder' expr:data-count='data:post.numComments' expr:data-onclick='data:post.addCommentOnclick' expr:data-url='data:post.canonicalUrl'>
     </span>
@@ -585,7 +585,7 @@ function createSummaryAndThumb(pID){
     </b:if>
   </b:if>
 </b:includable>
-    <b:includable id='comment_picker' var='post'>
+        <b:includable id='comment_picker' var='post'>
   <b:if cond='data:post.commentSource == 1'>
     <b:include data='post' name='iframe_comments'/>
   <b:else/>
@@ -596,7 +596,7 @@ function createSummaryAndThumb(pID){
     </b:if>
   </b:if>
 </b:includable>
-    <b:includable id='comments' var='post'>
+        <b:includable id='comments' var='post'>
   <div class='comments' id='comments'>
     <a name='comments'/>
     <b:if cond='data:post.allowComments'>
@@ -712,7 +712,7 @@ function createSummaryAndThumb(pID){
     </div>
   </div>
 </b:includable>
-    <b:includable id='feedLinks'>
+        <b:includable id='feedLinks'>
   <b:if cond='data:blog.pageType != &quot;item&quot;'> <!-- Blog feed links -->
     <b:if cond='data:feedLinks'>
       <div class='blog-feeds'>
@@ -732,7 +732,7 @@ function createSummaryAndThumb(pID){
     </div>
   </b:if>
 </b:includable>
-    <b:includable id='feedLinksBody' var='links'>
+        <b:includable id='feedLinksBody' var='links'>
   <div class='feed-links'>
   <data:feedLinksMsg/>
   <b:loop values='data:links' var='f'>
@@ -740,7 +740,7 @@ function createSummaryAndThumb(pID){
   </b:loop>
   </div>
 </b:includable>
-    <b:includable id='iframe_comments' var='post'>
+        <b:includable id='iframe_comments' var='post'>
 
   <b:if cond='data:post.allowComments'>
     <script expr:src='data:post.commentSrc' type='text/javascript'/>
@@ -751,7 +751,7 @@ function createSummaryAndThumb(pID){
     </b:if>
   </b:if>
 </b:includable>
-    <b:includable id='mobile-index-post' var='post'>
+        <b:includable id='mobile-index-post' var='post'>
   <div class='mobile-date-outer date-outer'>
     <b:if cond='data:post.dateHeader'>
       <div class='date-header'>
@@ -796,7 +796,7 @@ function createSummaryAndThumb(pID){
     </div>
   </div>
 </b:includable>
-    <b:includable id='mobile-main' var='top'>
+        <b:includable id='mobile-main' var='top'>
     <!-- posts -->
     <div class='blog-posts hfeed'>
 
@@ -815,7 +815,7 @@ function createSummaryAndThumb(pID){
 
    <b:include name='mobile-nextprev'/>
 </b:includable>
-    <b:includable id='mobile-nextprev'>
+        <b:includable id='mobile-nextprev'>
   <div class='blog-pager' id='blog-pager'>
     <b:if cond='data:newerPageUrl'>
       <div class='mobile-link-button' id='blog-pager-newer-link'>
@@ -840,7 +840,7 @@ function createSummaryAndThumb(pID){
   </div>
   <div class='clear'/>
 </b:includable>
-    <b:includable id='mobile-post' var='post'>
+        <b:includable id='mobile-post' var='post'>
   <div class='date-outer'>
     <b:if cond='data:post.dateHeader'>
       <h2 class='date-header'><span><data:post.dateHeader/></span></h2>
@@ -945,7 +945,7 @@ function createSummaryAndThumb(pID){
     </div>
   </div>
 </b:includable>
-    <b:includable id='nextprev'>
+        <b:includable id='nextprev'>
   <div class='blog-pager' id='blog-pager'>
     <b:if cond='data:newerPageUrl'>
       <span id='blog-pager-newer-link'>
@@ -970,7 +970,7 @@ function createSummaryAndThumb(pID){
   </div>
   <div class='clear'/>
 </b:includable>
-    <b:includable id='post' var='post'>
+        <b:includable id='post' var='post'>
 <article class='post hentry'>
 <div class='post-cover'>
     <a expr:name='data:post.id'/>
@@ -999,7 +999,6 @@ function createSummaryAndThumb(pID){
 <b:if cond='data:blog.pageType != &quot;static_page&quot;'>
 <b:if cond='data:blog.pageType != &quot;item&quot;'>
 <div expr:id='&quot;summary&quot; + data:post.id'><data:post.body/></div>
-<script type='text/javascript'>createSummaryAndThumb(&quot;summary<data:post.id/>&quot;);</script>
 </b:if>
 </b:if>
 <b:if cond='data:blog.pageType == &quot;item&quot;'><data:post.body/></b:if>
@@ -1055,7 +1054,7 @@ function createSummaryAndThumb(pID){
 </b:if>
 
 </b:includable>
-    <b:includable id='postQuickEdit' var='post'>
+        <b:includable id='postQuickEdit' var='post'>
   <b:if cond='data:post.editUrl'>
     <span expr:class='&quot;item-control &quot; + data:post.adminClass'>
       <a expr:href='data:post.editUrl' expr:title='data:top.editPostMsg'>
@@ -1064,10 +1063,10 @@ function createSummaryAndThumb(pID){
     </span>
   </b:if>
 </b:includable>
-    <b:includable id='shareButtons' var='post'>
+        <b:includable id='shareButtons' var='post'>
   <b:if cond='data:top.showEmailButton'><a class='goog-inline-block share-button sb-email' expr:href='data:post.sharePostUrl + &quot;&amp;target=email&quot;' expr:title='data:top.emailThisMsg' target='_blank'><span class='share-button-link-text'><data:top.emailThisMsg/></span></a></b:if><b:if cond='data:top.showBlogThisButton'><a class='goog-inline-block share-button sb-blog' expr:href='data:post.sharePostUrl + &quot;&amp;target=blog&quot;' expr:onclick='&quot;window.open(this.href, \&quot;_blank\&quot;, \&quot;height=270,width=475\&quot;); return false;&quot;' expr:title='data:top.blogThisMsg' target='_blank'><span class='share-button-link-text'><data:top.blogThisMsg/></span></a></b:if><b:if cond='data:top.showTwitterButton'><a class='goog-inline-block share-button sb-twitter' expr:href='data:post.sharePostUrl + &quot;&amp;target=twitter&quot;' expr:title='data:top.shareToTwitterMsg' target='_blank'><span class='share-button-link-text'><data:top.shareToTwitterMsg/></span></a></b:if><b:if cond='data:top.showFacebookButton'><a class='goog-inline-block share-button sb-facebook' expr:href='data:post.sharePostUrl + &quot;&amp;target=facebook&quot;' expr:onclick='&quot;window.open(this.href, \&quot;_blank\&quot;, \&quot;height=430,width=640\&quot;); return false;&quot;' expr:title='data:top.shareToFacebookMsg' target='_blank'><span class='share-button-link-text'><data:top.shareToFacebookMsg/></span></a></b:if><b:if cond='data:top.showOrkutButton'><a class='goog-inline-block share-button sb-orkut' expr:href='data:post.sharePostUrl + &quot;&amp;target=orkut&quot;' expr:title='data:top.shareToOrkutMsg' target='_blank'><span class='share-button-link-text'><data:top.shareToOrkutMsg/></span></a></b:if><b:if cond='data:top.showDummy'><div class='goog-inline-block dummy-container'><data:post.dummyTag/></div></b:if>
 </b:includable>
-    <b:includable id='status-message'>
+        <b:includable id='status-message'>
   <b:if cond='data:navMessage'>
   <div class='status-msg-wrap'>
     <div class='status-msg-body'>
@@ -1082,7 +1081,7 @@ function createSummaryAndThumb(pID){
   <div style='clear: both;'/>
   </b:if>
 </b:includable>
-    <b:includable id='threaded-comment-form' var='post'>
+        <b:includable id='threaded-comment-form' var='post'>
   <div class='comment-form'>
     <a name='comment-form'/>
     <b:if cond='data:mobile'>
@@ -1103,7 +1102,7 @@ function createSummaryAndThumb(pID){
     </script>
   </div>
 </b:includable>
-    <b:includable id='threaded_comment_js' var='post'>
+        <b:includable id='threaded_comment_js' var='post'>
   <script async='async' expr:src='data:post.commentSrc' type='text/javascript'/>
 
   <script type='text/javascript'>
@@ -1282,7 +1281,7 @@ function createSummaryAndThumb(pID){
 // ]]>
   </script>
 </b:includable>
-    <b:includable id='threaded_comments' var='post'>
+        <b:includable id='threaded_comments' var='post'>
   <div class='comments' id='comments'>
     <a name='comments'/>
     <h4><data:post.commentLabelFull/>:</h4>
@@ -1320,8 +1319,8 @@ function createSummaryAndThumb(pID){
     </div>
   </div>
 </b:includable>
-  </b:widget>
-</b:section>
+      </b:widget>
+    </b:section>
 
         
 </div><!-- #content -->
