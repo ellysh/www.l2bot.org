@@ -1376,7 +1376,6 @@ function createSummaryAndThumb(pID){
 
 <div class='site-info'>
 Copyright &amp;copy; <script type='text/javascript'>var creditsyear = new Date();document.write(creditsyear.getFullYear());</script> <a expr:href='data:blog.homepageUrl'><data:blog.title/></a> | Powered by <a href='http://www.blogger.com/'>Blogger</a>
-<br/>Design by <a href='http://www.fabthemes.com' target='_blank'>Fabthemes</a> | Blogger Template by <a href='http://newbloggerthemes.com/' target='_blank' title='Best Blogger Templates'>NewBloggerThemes.com</a>    
 </div><!-- .site-info -->
 </footer><!-- .site-footer .site-footer -->
 </div><!-- #page .hfeed .site -->
