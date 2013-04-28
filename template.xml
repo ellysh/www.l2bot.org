@@ -716,7 +716,6 @@ function createSummaryAndThumb(pID){
   <b:if cond='data:blog.pageType != &quot;item&quot;'> <!-- Blog feed links -->
     <b:if cond='data:feedLinks'>
       <div class='blog-feeds'>
-        <b:include data='feedLinks' name='feedLinksBody'/>
       </div>
     </b:if>
 
