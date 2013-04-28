@@ -958,8 +958,6 @@ function createSummaryAndThumb(pID){
       </span>
     </b:if>
 
-    <a class='home-link' expr:href='data:blog.homepageUrl'><data:homeMsg/></a>
-
     <b:if cond='data:mobileLinkUrl'>
       <div class='blog-mobile-link'>
         <a expr:href='data:mobileLinkUrl'><data:mobileLinkMsg/></a>
