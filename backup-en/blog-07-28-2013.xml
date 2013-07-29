@@ -1,0 +1,1376 @@
+<?xml version='1.0' encoding='UTF-8'?><?xml-stylesheet href="http://www.blogger.com/styles/atom.css" type="text/css"?><feed xmlns='http://www.w3.org/2005/Atom' xmlns:openSearch='http://a9.com/-/spec/opensearchrss/1.0/' xmlns:georss='http://www.georss.org/georss' xmlns:gd='http://schemas.google.com/g/2005' xmlns:thr='http://purl.org/syndication/thread/1.0'><id>tag:blogger.com,1999:blog-8707466986395456102.archive</id><updated>2013-07-28T22:53:52.125-07:00</updated><title type='text'>Lineage 2 Bot</title><link rel='http://schemas.google.com/g/2005#feed' type='application/atom+xml' href='http://en-l2bot.blogspot.com/feeds/archive'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/8707466986395456102/archive'/><link rel='http://schemas.google.com/g/2005#post' type='application/atom+xml' href='http://www.blogger.com/feeds/8707466986395456102/archive'/><link rel='alternate' type='text/html' href='http://en-l2bot.blogspot.com/'/><author><name>Ilya Shpigor</name><uri>http://www.blogger.com/profile/11912242599568868113</uri><email>noreply@blogger.com</email><gd:image rel='http://schemas.google.com/g/2005#thumbnail' width='16' height='16' src='http://img2.blogblog.com/img/b16-rounded.gif'/></author><generator version='7.00' uri='http://www.blogger.com'>Blogger</generator><entry><id>tag:blogger.com,1999:blog-8707466986395456102.layout</id><published>2013-04-23T07:41:03.429-07:00</published><updated>2013-07-28T22:53:52.125-07:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#template'/><title type='text'>Template: Lineage 2 Bot</title><content type='text'>&lt;?xml version="1.0" encoding="UTF-8" ?&gt;
+&lt;!DOCTYPE html&gt;
+&lt;html expr:dir='data:blog.languageDirection' xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'&gt;
+&lt;head&gt;
+
+&lt;b:include data='blog' name='all-head-content'/&gt;
+
+&lt;b:if cond='data:blog.pageType == &amp;quot;index&amp;quot;'&gt;
+&lt;title&gt;&lt;data:blog.pageTitle/&gt;&lt;/title&gt; 
+&lt;b:else/&gt;
+&lt;title&gt;&lt;data:blog.pageName/&gt; ~ &lt;data:blog.title/&gt;&lt;/title&gt;
+&lt;/b:if&gt;
+
+&lt;link href='http://fonts.googleapis.com/css?family=Lato:400,900,700' rel='stylesheet' type='text/css'/&gt;
+
+&lt;!--[if lt IE 9]&gt;
+&lt;script type='text/javascript'&gt;
+//&lt;![CDATA[
+
+// html5shiv MIT @rem remysharp.com/html5-enabling-script
+// iepp v1.6.2 MIT @jon_neal iecss.com/print-protector
+/*@cc_on(function(a,b){function r(a){var b=-1;while(++b&lt;f)a.createElement(e[b])}if(!(!window.attachEvent||!b.createStyleSheet||!function(){var a=document.createElement("div");a.innerHTML="&lt;elem&gt;&lt;/elem&gt;";return a.childNodes.length!==1}())){a.iepp=a.iepp||{};var c=a.iepp,d=c.html5elements||"abbr|article|aside|audio|canvas|datalist|details|figcaption|figure|footer|header|hgroup|mark|meter|nav|output|progress|section|summary|time|video",e=d.split("|"),f=e.length,g=new RegExp("(^|\\s)("+d+")","gi"),h=new RegExp("&lt;(/*)("+d+")","gi"),i=/^\s*[\{\}]\s*$/,j=new RegExp("(^|[^\\n]*?\\s)("+d+")([^\\n]*)({[\\n\\w\\W]*?})","gi"),k=b.createDocumentFragment(),l=b.documentElement,m=l.firstChild,n=b.createElement("body"),o=b.createElement("style"),p=/print|all/,q;c.getCSS=function(a,b){if(a+""===undefined)return"";var d=-1,e=a.length,f,g=[];while(++d&lt;e){f=a[d];if(f.disabled)continue;b=f.media||b,p.test(b)&amp;&amp;g.push(c.getCSS(f.imports,b),f.cssText),b="all"}return g.join("")},c.parseCSS=function(a){var b=[],c;while((c=j.exec(a))!=null)b.push(((i.exec(c[1])?"\n":c[1])+c[2]+c[3]).replace(g,"$1.iepp_$2")+c[4]);return b.join("\n")},c.writeHTML=function(){var a=-1;q=q||b.body;while(++a&lt;f){var c=b.getElementsByTagName(e[a]),d=c.length,g=-1;while(++g&lt;d)c[g].className.indexOf("iepp_")&lt;0&amp;&amp;(c[g].className+=" iepp_"+e[a])}k.appendChild(q),l.appendChild(n),n.className=q.className,n.id=q.id,n.innerHTML=q.innerHTML.replace(h,"&lt;$1font")},c._beforePrint=function(){o.styleSheet.cssText=c.parseCSS(c.getCSS(b.styleSheets,"all")),c.writeHTML()},c.restoreHTML=function(){n.innerHTML="",l.removeChild(n),l.appendChild(q)},c._afterPrint=function(){c.restoreHTML(),o.styleSheet.cssText=""},r(b),r(k);if(c.disablePP)return;m.insertBefore(o,m.firstChild),o.media="print",o.className="iepp-printshim",a.attachEvent("onbeforeprint",c._beforePrint),a.attachEvent("onafterprint",c._afterPrint)}})(this,document)@*/
+
+//]]&gt;
+&lt;/script&gt;
+&lt;![endif]--&gt;
+
+    &lt;b:skin&gt;&lt;![CDATA[/*
+-----------------------------------------------
+Template Name  : Gordon
+Author         : NewBloggerThemes.com
+Author URL     : http://newbloggerthemes.com/
+Theme URL      : http://newbloggerthemes.com/gordon-blogger-template/
+Created Date   : Tuesday, September 4, 2012
+License        : This template is free for both personal and commercial use, But to satisfy the 'attribution' clause of the license, you are required to keep the footer links intact which provides due credit to its authors.For more information about this license, please use this link :http://creativecommons.org/licenses/by/3.0/
+----------------------------------------------- */
+
+body#layout ul{list-style-type:none;list-style:none}
+body#layout ul li{list-style-type:none;list-style:none}
+body#layout #skiplinks{display:none}
+body#layout #content {width:600px;}
+
+/* Variable definitions
+   ====================
+   &lt;Variable name="bgcolor" description="Page Background Color"
+             type="color" default="#fff" value="#ffffff"&gt;
+   &lt;Variable name="textcolor" description="Text Color"
+             type="color" default="#333" value="#333333"&gt;
+   &lt;Variable name="linkcolor" description="Link Color"
+             type="color" default="#58a" value="#5588aa"&gt;
+   &lt;Variable name="pagetitlecolor" description="Blog Title Color"
+             type="color" default="#666" value="#666666"&gt;
+   &lt;Variable name="descriptioncolor" description="Blog Description Color"
+             type="color" default="#999" value="#999999"&gt;
+   &lt;Variable name="titlecolor" description="Post Title Color"
+             type="color" default="#c60" value="#cc6600"&gt;
+   &lt;Variable name="bordercolor" description="Border Color"
+             type="color" default="#ccc" value="#cccccc"&gt;
+   &lt;Variable name="sidebarcolor" description="Sidebar Title Color"
+             type="color" default="#999" value="#999999"&gt;
+   &lt;Variable name="sidebartextcolor" description="Sidebar Text Color"
+             type="color" default="#666" value="#666666"&gt;
+   &lt;Variable name="visitedlinkcolor" description="Visited Link Color"
+             type="color" default="#999" value="#999999"&gt;
+   &lt;Variable name="bodyfont" description="Text Font"
+             type="font" default="normal normal 100% Georgia, Serif" value="normal normal 100% Georgia, Serif"&gt;
+   &lt;Variable name="headerfont" description="Sidebar Title Font"
+             type="font"
+             default="normal normal 78% 'Trebuchet MS',Trebuchet,Arial,Verdana,Sans-serif" value="normal normal 78% 'Trebuchet MS',Trebuchet,Arial,Verdana,Sans-serif"&gt;
+   &lt;Variable name="pagetitlefont" description="Blog Title Font"
+             type="font"
+             default="normal normal 200% Georgia, Serif" value="normal normal 200% Georgia, Serif"&gt;
+   &lt;Variable name="descriptionfont" description="Blog Description Font"
+             type="font"
+             default="normal normal 78% 'Trebuchet MS', Trebuchet, Arial, Verdana, Sans-serif" value="normal normal 78% 'Trebuchet MS', Trebuchet, Arial, Verdana, Sans-serif"&gt;
+   &lt;Variable name="postfooterfont" description="Post Footer Font"
+             type="font"
+             default="normal normal 78% 'Trebuchet MS', Trebuchet, Arial, Verdana, Sans-serif" value="normal normal 78% 'Trebuchet MS', Trebuchet, Arial, Verdana, Sans-serif"&gt;
+   &lt;Variable name="startSide" description="Side where text starts in blog language"
+             type="automatic" default="left" value="left"&gt;
+   &lt;Variable name="endSide" description="Side where text ends in blog language"
+             type="automatic" default="right" value="right"&gt;
+*/
+
+/* Use this with templates/template-twocol.html */
+
+
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{border:0;font:inherit inherit 100% inherit;margin:0;outline:0;padding:0;vertical-align:baseline}
+html{overflow-y:scroll;font-size:62.5%;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;}
+body{background:#fff}
+article,aside,details,figcaption,figure,footer,header,hgroup,nav,section{display:block}
+ol,ul{list-style:none}
+table{border-collapse:separate;border-spacing:0}
+caption,th,td{font-weight:normal;text-align:left}
+blockquote:before,blockquote:after,q:before,q:after{content:""}
+blockquote,q{quotes:"" ""}
+a:focus{outline:thin dotted}
+a:hover,a:active{outline:0}
+a img{border:0}
+body,button,input,select,textarea{color:#666;font:1.3rem/1.5 Lato,sans-serif}
+body{background:#fff}
+h1,h2,h3,h4,h5,h6{clear:both;margin:0 0 10px 0}
+h1 a,h2 a,h3 a,h4 a,h5 a,h6 a{font-weight:inherit}
+h1{font-size:26px;line-height:30px}
+h2{font-size:20px;line-height:26px}
+h3{font-size:18px;line-height:24px}
+h4{font-size:16px;line-height:20px}
+h5{font-size:14px;line-height:18px}
+h6{font-size:14px;line-height:18px}
+hr{background-color:#ccc;border:0;height:1px;margin-bottom:1.5em}
+p{margin-bottom:1.5em}
+ul,ol{margin:0 0 1.5em 3em}
+ul{list-style:disc}
+ol{list-style:decimal}
+ul ul,ol ol,ul ol,ol ul{margin-bottom:0;margin-left:1.5em}
+dt{font-weight:bold}
+dd{margin:0 1.5em 1.5em}
+b,strong{font-weight:bold}
+dfn,cite,em,i{font-style:italic}
+blockquote{margin:0 1.5em}
+address{margin:0 0 1.5em}
+pre{background:#eee;font:1.5rem/1.6 "Courier 10 Pitch",Courier,monospace;margin-bottom:1.6em;padding:1.6em;overflow:auto;max-width:100%}
+code,kbd,tt,var{font:15px Monaco,Consolas,"Andale Mono","DejaVu Sans Mono",monospace}
+abbr,acronym{border-bottom:1px dotted #666;cursor:help}
+mark,ins{background:#fff9c0;text-decoration:none}
+sup,sub{height:0;font-size:75%;line-height:0;position:relative;vertical-align:baseline}
+sup{bottom:1ex}
+sub{top:.5ex}
+small{font-size:75%}
+big{font-size:125%}
+figure{margin:0}
+table{margin:0 0 1.5em;width:100%}
+th{font-weight:bold}
+button,input,select,textarea{font-size:100%;margin:0;vertical-align:baseline;*vertical-align:middle;}
+button,input{*overflow:visible;line-height:normal;}
+button,html input[type="button"],input[type="reset"],input[type="submit"]{border:1px solid #ccc;border-color:#ccc #ccc #bbb #ccc;border-radius:3px;background:#fafafa;background:-moz-linear-gradient(top,#fafafa 60%,#e6e6e6 100%);background:-webkit-gradient(linear,left top,left bottom,color-stop(60%,#fafafa),color-stop(100%,#e6e6e6));background:-webkit-linear-gradient(top,#fafafa 60%,#e6e6e6 100%);background:-o-linear-gradient(top,#fafafa 60%,#e6e6e6 100%);background:-ms-linear-gradient(top,#fafafa 60%,#e6e6e6 100%);background:linear-gradient(top,#fafafa 60%,#e6e6e6 100%);filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#fafafa',endColorstr='#e6e6e6',GradientType=0 );box-shadow:inset 0 2px 1px #fff;color:rgba(0,0,0,.8);cursor:pointer;-webkit-appearance:button;font-size:12px;font-size:1.4rem;padding:1.12em 1.5em .88em;text-shadow:0 1px 0 rgba(255,255,255,.5)}
+button:hover,html input[type="button"]:hover,input[type="reset"]:hover,input[type="submit"]:hover{background:#f5f5f5;background:-moz-linear-gradient(top,#f5f5f5 60%,#dcdcdc 100%);background:-webkit-gradient(linear,left top,left bottom,color-stop(60%,#f5f5f5),color-stop(100%,#dcdcdc));background:-webkit-linear-gradient(top,#f5f5f5 60%,#dcdcdc 100%);background:-o-linear-gradient(top,#f5f5f5 60%,#dcdcdc 100%);background:-ms-linear-gradient(top,#f5f5f5 60%,#dcdcdc 100%);background:linear-gradient(top,#f5f5f5 60%,#dcdcdc 100%);filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#f5f5f5',endColorstr='#dcdcdc',GradientType=0 );border-color:#bbb #bbb #aaa #bbb}
+button:focus,html input[type="button"]:focus,input[type="reset"]:focus,input[type="submit"]:focus,button:active,html input[type="button"]:active,input[type="reset"]:active,input[type="submit"]:active{border-color:#aaa #bbb #bbb #bbb;box-shadow:inset 0 2px 3px rgba(0,0,0,.15);box-shadow:inset 0 2px 2px rgba(0,0,0,.15)}
+input[type="checkbox"],input[type="radio"]{box-sizing:border-box;padding:0;}
+input[type="search"]{-webkit-appearance:textfield;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box}
+input[type="search"]::-webkit-search-decoration{-webkit-appearance:none}
+button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}
+input[type=text],textarea{color:#666;border:1px solid #ccc;border-radius:3px}
+input[type=text]:focus,textarea:focus{color:#111}
+input[type=text]{padding:3px}
+textarea{overflow:auto;padding-left:3px;vertical-align:top;width:98%}
+a{color:royalblue;text-decoration:none}
+a:visited{color:purple}
+a:hover,a:focus,a:active{color:midnightblue}
+.alignleft{display:inline;float:left;margin-right:1.5em}
+.alignright{display:inline;float:right;margin-left:1.5em}
+.aligncenter{clear:both;display:block;margin:0 auto}
+.clear{clear:both}
+.assistive-text{clip:rect(1px 1px 1px 1px);clip:rect(1px,1px,1px,1px);position:absolute !important}
+.sticky{}
+.hentry{margin:0 0 2em}
+.entry-meta{clear:both}
+.byline{display:none}
+.single .byline,.group-blog .byline{display:inline}
+.entry-content,.entry-summary{margin:1.5em 0 0;font-size:13px;}
+.page-links{clear:both;margin:0 0 1.5em}
+.blog .format-aside .entry-title,.archive .format-aside .entry-title{display:none}
+.site-header img,.entry-content img,.comment-content img,.widget img{max-width:100%;}
+.site-header img,.entry-content img,img[class*="align"],img[class*="wp-image-"]{height:auto;}
+.site-header img,.entry-content img,img.size-full{max-width:100%;width:auto;}
+.entry-content img.wp-smiley,.comment-content img.wp-smiley{border:none;margin-bottom:0;margin-top:0;padding:0}
+#content .gallery{margin-bottom:1.5em}
+.gallery-caption{}
+#content .gallery a img{border:none;height:auto;max-width:90%}
+#content .gallery dd{margin:0}
+#content .gallery-columns-4 .gallery-item{}
+#content .gallery-columns-4 .gallery-item img{}
+embed,iframe,object{max-width:100%}
+#content .site-navigation{margin:0 0 1.5em;overflow:hidden}
+#content .nav-previous{float:left;width:50%}
+#content .nav-next{float:right;text-align:right;width:50%}
+.bypostauthor{}
+.widget{margin:0 0 1.5em}
+#searchsubmit{display:none}
+#topstripes{height:10px;width:100%;background:url(http://2.bp.blogspot.com/-lngjsBkhdyE/UPcd0g0eoTI/AAAAAAAAECc/aB6TprojD4Q/s000/stripe.png) repeat-x}
+#page{width:1000px;margin:0 auto}
+header#masthead{border-bottom:10px solid #aaa;height:120px}
+.logo{width:490px;float:left;margin:45px 0 0 0}
+.logo h1{text-transform:uppercase;font-size:42px;font-weight:900}
+.logo h1 a:link,.logo h1 a:visited{color:#111}
+#botmenu{width:500px;float:left;margin:0 0 0 0;font-size:12px;overflow:hidden}
+#submenu{margin:40px 0 0 0;padding:0 0;height:40px}
+#submenu ul{width:auto;float:right;list-style:none;margin:0;padding:0px 0px 0px 20px;}
+#submenu li{float:left;list-style:none;margin:0;padding:0;color:#666;font-weight:400;text-transform:uppercase}
+#submenu li a{color:#666;display:block;margin:0;padding:11px 10px 11px 10px;text-decoration:none;position:relative}
+#submenu li a:hover,#submenu li a:active,#submenu .current_page_item a{color:#222}
+#submenu li a.sf-with-ul{padding-right:10px}
+#submenu li li a,#submenu li li a:link,#submenu li li a:visited{color:#eee;width:148px;margin:0;padding:10px 10px;border-bottom:1px solid #666;border-top:1px solid #888;border-left:1px solid #888;border-right:1px solid #666;position:relative;background:#7D7D7D;font-size:12px;font-weight:normal}
+#submenu ul ul li:first-child{border-top:none}
+#submenu ul ul li:last-child{border-bottom:none}
+#submenu li li:last-child{border-bottom:none}
+#submenu li li a:hover,#submenu li li a:active{background:#666;color:#fff}
+#submenu li ul{z-index:9999;position:absolute;left:-999em;height:auto;width:170px;margin:0 0;padding:0;background:#282828}
+#submenu li ul a{width:150px}
+#submenu li ul a:hover,#submenu li ul a:active{}
+#submenu li ul ul{margin:-40px 0 0 169px}
+#submenu li:hover ul ul,#submenu li:hover ul ul ul,#submenu li.sfHover ul ul,#submenu li.sfHover ul ul ul{left:-999em}
+#submenu li:hover ul,#submenu li li:hover ul,#submenu li li li:hover ul,#submenu li.sfHover ul,#submenu li li.sfHover ul,#submenu li li li.sfHover ul{left:auto}
+#submenu li:hover,#submenu li.sfHover{position:static}
+#main{padding:30px 0 30px 0}
+#primary{width:670px;float:left;word-wrap:break-word;overflow:hidden;}
+#secondary{width:300px;float:right;background:#222;word-wrap:break-word;overflow:hidden;}
+.format-box{background:#222;width:60px;height:60px;color:#fff;font-size:36px;line-height:60px;text-align:center;position:absolute;left:0;top:0}
+article.post{position:relative}
+.post-cover{width:668px;background:#f8f8f8;border:1px solid #ddd;padding:0 0;margin-left:0px}
+article.post header.entry-header{padding:20px 20px 0 20px}
+h2.entry-title{font-size:20px;text-transform:uppercase;padding-bottom:15px;border-bottom:1px solid #ddd}
+h2.entry-title a:link,h2.entry-title a:visited{color:#444}
+article.post .entry-content{padding:0 20px;line-height:170%}
+.entry-content blockquote{font:italic 16px Georgia}
+footer.entry-meta{padding:20px 20px;background:#ebebeb;border-top:1px solid #ddd}
+footer.entry-meta span{margin-right:20px;font-size:12px;text-transform:uppercase;color:#000;text-shadow:1px 0 0 #fff}
+footer.entry-meta span a:link,footer.entry-meta span a:visited{color:#000}
+.media-box{margin-bottom:20px}
+h1.page-title{text-transform:uppercase;padding:10px 0;font-size:16px}
+article.results{background:#f8f8f8;border:1px solid #ddd}
+article.results header.entry-header{padding:20px 20px 0 20px}
+article.results .entry-content{padding:0 20px;line-height:170%}
+.searchbox{height:55px;background:#2b2b2b;border-bottom:1px solid #000}
+ul.social{margin:0;padding:10px 15px;list-style:none;float:left}
+ul.social li{float:left;font-size:24px}
+ul.social li a:link,ul.social li a:visited{color:#fff}
+#searchform{float:left;margin:15px 0 0 0}
+input#s{width:150px;padding:2px 5px;background:#ddd;border:1px solid #eee}
+#sidebar{width:260px;float:right;margin:0 20px;padding:20px 0}
+#sidebar ul{margin:0;padding:0}
+.sidebar h2{margin-bottom:10px;padding-bottom:10px;text-transform:uppercase;color:#fff;font-size:16px;font-weight:900;border-bottom:1px solid #000;-webkit-box-shadow:0 1px 0 0 #333;box-shadow:0 1px 0 0 #333}
+.sidebar .widget{list-style:none;margin:0 0 25px 0;color:#888888;font-size:13px;}
+.sidebar .widget ul{list-style-type:none;margin:0;padding:0}
+.sidebar .widget li{list-style-type:none;margin:0;padding:7px 0px;}
+.PopularPosts .widget-content ul li{padding:7px 0px;}
+.sidebar .widget ul ul{list-style-type:none;background-repeat:no-repeat;margin:0;padding:0}
+.sidebar .widget ul li{list-style-type:none;margin:0;margin:0 0;color:#999}
+.sidebar .widget ul li a:link,.sidebar .widget ul li a:visited{color:#999;text-decoration:none}
+.sidebar .widget ul li a:hover{color:#ddd}
+.sidebar .widget .textwidget p{padding:0 10px}
+.squarebanner ul{margin:0 0 0 0;padding:0}
+.squarebanner ul li{margin:10px 10px 0 0;list-style:none;float:left}
+li.rbanner{margin-right:0!important}
+.site-footer{padding:30px 0;text-align:center;border-top:10px solid #aaa;color:#444}
+.site-footer a:link,.site-footer a:visited{color:#444}
+h2.date-header{margin:1.5em 0 .5em;display:none;}
+.main .widget{margin:0 0 5px;padding:0 0 2px}
+.main .Blog{border-bottom-width:0}
+#header .description{display:none;}
+/* Comments----------------------------------------------- */
+#comments{padding:10px;background-color:#f8f8f8;border:1px solid #dddddd;}
+#comment-name-url{width:365px;float:left}
+#comment-date{width:365px;float:left;margin-top:5px;font-size:10px;}
+#comment-header{float:left;padding:5px 0 40px 10px;margin:5px 0px 15px 0px;position:relative;background-color:#fff;border:1px dashed #eee;}
+.avatar-image-container{background:url(http://4.bp.blogspot.com/-uCDA64M1HKg/UPcd0q-TAJI/AAAAAAAAECk/gKAgkiuQOyI/s000/comment-avatar.jpg);width:32px;height:32px;float:right;margin:5px 10px 5px 5px;border:1px solid #ddd;}
+.avatar-image-container img{width:32px;height:32px;}
+a.comments-autor-name{color:#000;font:normal bold 14px Arial,Tahoma,Verdana}
+a.says{color:#000;font:normal 14px Arial,Tahoma,Verdana}
+.says a:hover{text-decoration:none}
+.deleted-comment{font-style:italic;color:gray}
+#blog-pager-newer-link{float:$startSide}
+#blog-pager-older-link{float:$endSide}
+#blog-pager{text-align:center}
+.feed-links{clear:both;line-height:2.5em}
+/* Profile ----------------------------------------------- */
+.profile-img{float:$startSide;margin-top:0;margin-$endSide:5px;margin-bottom:5px;margin-$startSide:0;padding:4px;border:1px solid $bordercolor}
+.profile-data{margin:0;text-transform:uppercase;letter-spacing:.1em;font:$postfooterfont;color:$sidebarcolor;font-weight:bold;line-height:1.6em}
+.profile-datablock{margin:.5em 0 .5em}
+.profile-textblock{margin:0.5em 0;line-height:1.6em}
+.avatar-image-container{background:url(http://4.bp.blogspot.com/-uCDA64M1HKg/UPcd0q-TAJI/AAAAAAAAECk/gKAgkiuQOyI/s000/comment-avatar.jpg);width:32px;height:32px;float:right;margin:5px 10px 5px 5px;border:1px solid #ddd;}
+.avatar-image-container img{width:32px;height:32px;}
+.profile-link{font:$postfooterfont;text-transform:uppercase;letter-spacing:.1em}
+.comment-form{max-width:600px;}
+#navbar-iframe{height:0;visibility:hidden;display:none;}
+.cover{float:left;width:100%;}
+
+]]&gt;&lt;/b:skin&gt;
+
+&lt;script type='text/javascript'&gt;
+//&lt;![CDATA[
+
+function showrecentcomments(json){for(var i=0;i&lt;a_rc;i++){var b_rc=json.feed.entry[i];var c_rc;if(i==json.feed.entry.length)break;for(var k=0;k&lt;b_rc.link.length;k++){if(b_rc.link[k].rel=='alternate'){c_rc=b_rc.link[k].href;break;}}c_rc=c_rc.replace("#","#comment-");var d_rc=c_rc.split("#");d_rc=d_rc[0];var e_rc=d_rc.split("/");e_rc=e_rc[5];e_rc=e_rc.split(".html");e_rc=e_rc[0];var f_rc=e_rc.replace(/-/g," ");f_rc=f_rc.link(d_rc);var g_rc=b_rc.published.$t;var h_rc=g_rc.substring(0,4);var i_rc=g_rc.substring(5,7);var j_rc=g_rc.substring(8,10);var k_rc=new Array();k_rc[1]="Jan";k_rc[2]="Feb";k_rc[3]="Mar";k_rc[4]="Apr";k_rc[5]="May";k_rc[6]="Jun";k_rc[7]="Jul";k_rc[8]="Aug";k_rc[9]="Sep";k_rc[10]="Oct";k_rc[11]="Nov";k_rc[12]="Dec";if("content" in b_rc){var l_rc=b_rc.content.$t;}else if("summary" in b_rc){var l_rc=b_rc.summary.$t;}else var l_rc="";var re=/&lt;\S[^&gt;]*&gt;/g;l_rc=l_rc.replace(re,"");if(m_rc==true)document.write('On '+k_rc[parseInt(i_rc,10)]+' '+j_rc+' ');document.write('&lt;a href="'+c_rc+'"&gt;'+b_rc.author[0].name.$t+'&lt;/a&gt; commented');if(n_rc==true)document.write(' on '+f_rc);document.write(': ');if(l_rc.length&lt;o_rc){document.write('&lt;i&gt;&amp;#8220;');document.write(l_rc);document.write('&amp;#8221;&lt;/i&gt;&lt;br/&gt;&lt;br/&gt;');}else{document.write('&lt;i&gt;&amp;#8220;');l_rc=l_rc.substring(0,o_rc);var p_rc=l_rc.lastIndexOf(" ");l_rc=l_rc.substring(0,p_rc);document.write(l_rc+'&amp;hellip;&amp;#8221;&lt;/i&gt;');document.write('&lt;br/&gt;&lt;br/&gt;');}}}
+
+function rp(json){document.write('&lt;ul&gt;');for(var i=0;i&lt;numposts;i++){document.write('&lt;li&gt;');var entry=json.feed.entry[i];var posttitle=entry.title.$t;var posturl;if(i==json.feed.entry.length)break;for(var k=0;k&lt;entry.link.length;k++){if(entry.link[k].rel=='alternate'){posturl=entry.link[k].href;break}}posttitle=posttitle.link(posturl);var readmorelink="(more)";readmorelink=readmorelink.link(posturl);var postdate=entry.published.$t;var cdyear=postdate.substring(0,4);var cdmonth=postdate.substring(5,7);var cdday=postdate.substring(8,10);var monthnames=new Array();monthnames[1]="Jan";monthnames[2]="Feb";monthnames[3]="Mar";monthnames[4]="Apr";monthnames[5]="May";monthnames[6]="Jun";monthnames[7]="Jul";monthnames[8]="Aug";monthnames[9]="Sep";monthnames[10]="Oct";monthnames[11]="Nov";monthnames[12]="Dec";if("content"in entry){var postcontent=entry.content.$t}else if("summary"in entry){var postcontent=entry.summary.$t}else var postcontent="";var re=/&lt;\S[^&gt;]*&gt;/g;postcontent=postcontent.replace(re,"");document.write(posttitle);if(showpostdate==true)document.write(' - '+monthnames[parseInt(cdmonth,10)]+' '+cdday);if(showpostsummary==true){if(postcontent.length&lt;numchars){document.write(postcontent)}else{postcontent=postcontent.substring(0,numchars);var quoteEnd=postcontent.lastIndexOf(" ");postcontent=postcontent.substring(0,quoteEnd);document.write(postcontent+'...'+readmorelink)}}document.write('&lt;/li&gt;')}document.write('&lt;/ul&gt;')}
+
+//]]&gt;
+&lt;/script&gt;
+
+&lt;script type='text/javascript'&gt;
+summary_noimg = 550;
+summary_img = 450;
+img_thumb_height = 150;
+img_thumb_width = 200; 
+&lt;/script&gt;
+&lt;script type='text/javascript'&gt;
+//&lt;![CDATA[
+
+function removeHtmlTag(strx,chop){ 
+  if(strx.indexOf("&lt;")!=-1)
+  {
+    var s = strx.split("&lt;"); 
+    for(var i=0;i&lt;s.length;i++){ 
+      if(s[i].indexOf("&gt;")!=-1){ 
+        s[i] = s[i].substring(s[i].indexOf("&gt;")+1,s[i].length); 
+      } 
+    } 
+    strx =  s.join(""); 
+  }
+  chop = (chop &lt; strx.length-1) ? chop : strx.length-2; 
+  while(strx.charAt(chop-1)!=' ' &amp;&amp; strx.indexOf(' ',chop)!=-1) chop++; 
+  strx = strx.substring(0,chop-1); 
+  return strx+'...'; 
+}
+
+function createSummaryAndThumb(pID){
+  var div = document.getElementById(pID);
+  var imgtag = "";
+  var img = div.getElementsByTagName("img");
+  var summ = summary_noimg;
+  if(img.length&gt;=1) { 
+    imgtag = '&lt;span style="float:left; padding:0px 10px 5px 0px;"&gt;&lt;img src="'+img[0].src+'" width="'+img_thumb_width+'px" height="'+img_thumb_height+'px"/&gt;&lt;/span&gt;';
+    summ = summary_img;
+  }
+  
+  var summary = imgtag + '&lt;div&gt;' + removeHtmlTag(div.innerHTML,summ) + '&lt;/div&gt;';
+  div.innerHTML = summary;
+}
+
+//]]&gt;
+&lt;/script&gt;
+
+&lt;/head&gt;
+
+&lt;body class='home blog'&gt;
+&lt;div id='topstripes'/&gt;
+&lt;div class='hfeed site' id='page'&gt;
+  
+&lt;header class='site-header' id='masthead' role='banner'&gt;
+&lt;div class='logo'&gt;
+&lt;b:section class='header' id='header' maxwidgets='1' showaddelement='no'&gt;
+  &lt;b:widget id='Header1' locked='true' title='Lineage 2 Bot (Header)' type='Header'&gt;
+    &lt;b:includable id='main'&gt;
+
+  &lt;b:if cond='data:useImage'&gt;
+    &lt;b:if cond='data:imagePlacement == &amp;quot;REPLACE&amp;quot;'&gt;
+      &lt;!--Show just the image, no text--&gt;
+      &lt;div id='header-inner'&gt;
+        &lt;a expr:href='data:blog.homepageUrl' style='display: block'&gt;
+          &lt;img expr:alt='data:title' expr:height='data:height' expr:id='data:widget.instanceId + &amp;quot;_headerimg&amp;quot;' expr:src='data:sourceUrl' expr:width='data:width' style='display: block;padding-left:0px;padding-top:0px;'/&gt;
+        &lt;/a&gt;
+      &lt;/div&gt;
+    &lt;b:else/&gt;
+      &lt;!--
+      Show image as background to text. You can't really calculate the width
+      reliably in JS because margins are not taken into account by any of
+      clientWidth, offsetWidth or scrollWidth, so we don't force a minimum
+      width if the user is using shrink to fit.
+      This results in a margin-width's worth of pixels being cropped. If the
+      user is not using shrink to fit then we expand the header.
+      --&gt;
+      &lt;div expr:style='&amp;quot;background-image: url(\&amp;quot;&amp;quot; + data:sourceUrl + &amp;quot;\&amp;quot;); &amp;quot;                      + &amp;quot;background-position: &amp;quot;                      + data:backgroundPositionStyleStr + &amp;quot;; &amp;quot;                      + data:widthStyleStr                      + &amp;quot;min-height: &amp;quot; + data:height + &amp;quot;px;&amp;quot;                      + &amp;quot;_height: &amp;quot; + data:height + &amp;quot;px;&amp;quot;                      + &amp;quot;background-repeat: no-repeat; &amp;quot;' id='header-inner'&gt;
+        &lt;div class='titlewrapper' style='background: transparent'&gt;
+          &lt;h1 class='title' style='background: transparent; border-width: 0px'&gt;
+            &lt;b:include name='title'/&gt;
+          &lt;/h1&gt;
+        &lt;/div&gt;
+        &lt;b:include name='description'/&gt;
+      &lt;/div&gt;
+    &lt;/b:if&gt;
+  &lt;b:else/&gt;
+    &lt;!--No header image --&gt;
+    &lt;div id='header-inner'&gt;
+      &lt;div class='titlewrapper'&gt;
+        &lt;h1 class='title'&gt;
+          &lt;b:include name='title'/&gt;
+        &lt;/h1&gt;
+      &lt;/div&gt;
+      &lt;b:include name='description'/&gt;
+    &lt;/div&gt;
+  &lt;/b:if&gt;
+&lt;/b:includable&gt;
+    &lt;b:includable id='description'&gt;
+  &lt;div class='descriptionwrapper'&gt;
+    &lt;p class='description'&gt;&lt;span&gt;&lt;data:description/&gt;&lt;/span&gt;&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/b:includable&gt;
+    &lt;b:includable id='title'&gt;
+&lt;a expr:href='data:blog.homepageUrl'&gt;&lt;data:title/&gt;&lt;/a&gt;
+&lt;/b:includable&gt;
+  &lt;/b:widget&gt;
+&lt;/b:section&gt;
+&lt;/div&gt;
+
+&lt;div id='botmenu'&gt;
+&lt;div class='menu-primary-container' id='submenu'&gt;
+&lt;b:section class='nbttopmenu' id='nbttopmenu' showaddelement='no'/&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+    
+&lt;/header&gt;&lt;!-- #masthead .site-header --&gt;
+
+&lt;div id='crosscol-wrapper' style='text-align:center'&gt;
+&lt;b:section class='crosscol' id='crosscol' showaddelement='yes'/&gt;
+&lt;/div&gt;
+
+&lt;div id='main'&gt;
+&lt;div class='site-content' id='primary'&gt;
+&lt;div id='content' role='main'&gt;    
+                
+&lt;b:section class='mainblog' id='mainblog' showaddelement='no'&gt;
+      &lt;b:widget id='Blog1' locked='true' title='Blog Posts' type='Blog'&gt;
+        &lt;b:includable id='main' var='top'&gt;
+  &lt;b:if cond='data:mobile == &amp;quot;false&amp;quot;'&gt;
+
+    &lt;!-- posts --&gt;
+    &lt;div class='blog-posts hfeed'&gt;
+
+      &lt;b:include data='top' name='status-message'/&gt;
+
+      &lt;data:defaultAdStart/&gt;
+      &lt;b:loop values='data:posts' var='post'&gt;
+        &lt;b:if cond='data:post.isDateStart'&gt;
+          &lt;b:if cond='data:post.isFirstPost == &amp;quot;false&amp;quot;'&gt;
+            &amp;lt;/div&amp;gt;&amp;lt;/div&amp;gt;
+          &lt;/b:if&gt;
+        &lt;/b:if&gt;
+        &lt;b:if cond='data:post.isDateStart'&gt;
+          &amp;lt;div class=&amp;quot;date-outer&amp;quot;&amp;gt;
+        &lt;/b:if&gt;
+        &lt;b:if cond='data:post.dateHeader'&gt;
+          &lt;h2 class='date-header'&gt;&lt;span&gt;&lt;data:post.dateHeader/&gt;&lt;/span&gt;&lt;/h2&gt;
+        &lt;/b:if&gt;
+        &lt;b:if cond='data:post.isDateStart'&gt;
+          &amp;lt;div class=&amp;quot;date-posts&amp;quot;&amp;gt;
+        &lt;/b:if&gt;
+        &lt;div class='post-outer'&gt;
+        &lt;b:include data='post' name='post'/&gt;
+        &lt;b:if cond='data:blog.pageType == &amp;quot;static_page&amp;quot;'&gt;
+          &lt;b:if cond='data:post.showThreadedComments'&gt;
+            &lt;b:include data='post' name='threaded_comments'/&gt;
+          &lt;b:else/&gt;
+            &lt;b:include data='post' name='comments'/&gt;
+          &lt;/b:if&gt;
+        &lt;/b:if&gt;
+        &lt;b:if cond='data:blog.pageType == &amp;quot;item&amp;quot;'&gt;
+          &lt;b:if cond='data:post.showThreadedComments'&gt;
+            &lt;b:include data='post' name='threaded_comments'/&gt;
+          &lt;b:else/&gt;
+            &lt;b:include data='post' name='comments'/&gt;
+          &lt;/b:if&gt;
+        &lt;/b:if&gt;
+        &lt;/div&gt;
+        &lt;b:if cond='data:post.includeAd'&gt;
+          &lt;b:if cond='data:post.isFirstPost'&gt;
+            &lt;data:defaultAdEnd/&gt;
+          &lt;b:else/&gt;
+            &lt;data:adEnd/&gt;
+          &lt;/b:if&gt;
+          &lt;div class='inline-ad'&gt;
+            &lt;data:adCode/&gt;
+          &lt;/div&gt;
+          &lt;data:adStart/&gt;
+        &lt;/b:if&gt;
+      &lt;/b:loop&gt;
+      &lt;b:if cond='data:numPosts != 0'&gt;
+        &amp;lt;/div&amp;gt;&amp;lt;/div&amp;gt;
+      &lt;/b:if&gt;
+      &lt;data:adEnd/&gt;
+    &lt;/div&gt;
+
+&lt;div style='clear: both;'/&gt;
+&lt;b:if cond='data:blog.pageType != &amp;quot;item&amp;quot;'&gt;
+&lt;!-- navigation --&gt;
+&lt;b:include name='nextprev'/&gt;
+&lt;/b:if&gt;
+
+    &lt;!-- feed links --&gt;
+    &lt;b:include name='feedLinks'/&gt;
+
+    &lt;b:if cond='data:top.showStars'&gt;
+      &lt;script src='//www.google.com/jsapi' type='text/javascript'/&gt;
+      &lt;script type='text/javascript'&gt;
+        google.load(&amp;quot;annotations&amp;quot;, &amp;quot;1&amp;quot;, {&amp;quot;locale&amp;quot;: &amp;quot;&lt;data:top.languageCode/&gt;&amp;quot;});
+        function initialize() {
+          google.annotations.setApplicationId(&lt;data:top.blogspotReviews/&gt;);
+          google.annotations.createAll();
+          google.annotations.fetch();
+        }
+        google.setOnLoadCallback(initialize);
+      &lt;/script&gt;
+    &lt;/b:if&gt;
+
+  &lt;b:else/&gt;
+    &lt;b:include name='mobile-main'/&gt;
+  &lt;/b:if&gt;
+
+  &lt;b:if cond='data:top.showDummy'&gt;
+    &lt;data:top.dummyBootstrap/&gt;
+  &lt;/b:if&gt;
+
+&lt;/b:includable&gt;
+        &lt;b:includable id='backlinkDeleteIcon' var='backlink'&gt;
+  &lt;span expr:class='&amp;quot;item-control &amp;quot; + data:backlink.adminClass'&gt;
+    &lt;a expr:href='data:backlink.deleteUrl' expr:title='data:top.deleteBacklinkMsg'&gt;
+      &lt;img src='//www.blogger.com/img/icon_delete13.gif'/&gt;
+    &lt;/a&gt;
+  &lt;/span&gt;
+&lt;/b:includable&gt;
+        &lt;b:includable id='backlinks' var='post'&gt;
+  &lt;a name='links'/&gt;&lt;h4&gt;&lt;data:post.backlinksLabel/&gt;&lt;/h4&gt;
+  &lt;b:if cond='data:post.numBacklinks != 0'&gt;
+    &lt;dl class='comments-block' id='comments-block'&gt;
+      &lt;b:loop values='data:post.backlinks' var='backlink'&gt;
+        &lt;div class='collapsed-backlink backlink-control'&gt;
+          &lt;dt class='comment-title'&gt;
+            &lt;span class='backlink-toggle-zippy'&gt;&amp;#160;&lt;/span&gt;
+            &lt;a expr:href='data:backlink.url' rel='nofollow'&gt;&lt;data:backlink.title/&gt;&lt;/a&gt;
+            &lt;b:include data='backlink' name='backlinkDeleteIcon'/&gt;
+          &lt;/dt&gt;
+          &lt;dd class='comment-body collapseable'&gt;
+            &lt;data:backlink.snippet/&gt;
+          &lt;/dd&gt;
+          &lt;dd class='comment-footer collapseable'&gt;
+            &lt;span class='comment-author'&gt;&lt;data:post.authorLabel/&gt; &lt;data:backlink.author/&gt;&lt;/span&gt;
+            &lt;span class='comment-timestamp'&gt;&lt;data:post.timestampLabel/&gt; &lt;data:backlink.timestamp/&gt;&lt;/span&gt;
+          &lt;/dd&gt;
+        &lt;/div&gt;
+      &lt;/b:loop&gt;
+    &lt;/dl&gt;
+  &lt;/b:if&gt;
+  &lt;p class='comment-footer'&gt;
+    &lt;a class='comment-link' expr:href='data:post.createLinkUrl' expr:id='data:widget.instanceId + &amp;quot;_backlinks-create-link&amp;quot;' target='_blank'&gt;&lt;data:post.createLinkLabel/&gt;&lt;/a&gt;
+  &lt;/p&gt;
+&lt;/b:includable&gt;
+        &lt;b:includable id='comment-form' var='post'&gt;
+  &lt;div class='comment-form'&gt;
+    &lt;a name='comment-form'/&gt;
+    &lt;b:if cond='data:mobile'&gt;
+      &lt;h4 id='comment-post-message'&gt;
+        &lt;a expr:id='data:widget.instanceId + &amp;quot;_comment-editor-toggle-link&amp;quot;' href='javascript:void(0)'&gt;&lt;data:postCommentMsg/&gt;&lt;/a&gt;&lt;/h4&gt;
+      &lt;p&gt;&lt;data:blogCommentMessage/&gt;&lt;/p&gt;
+      &lt;data:blogTeamBlogMessage/&gt;
+      &lt;a expr:href='data:post.commentFormIframeSrc' id='comment-editor-src'/&gt;
+      &lt;iframe allowtransparency='true' class='blogger-iframe-colorize blogger-comment-from-post' frameborder='0' height='410' id='comment-editor' name='comment-editor' src='' style='display: none' width='100%'/&gt;
+    &lt;b:else/&gt;
+      &lt;h4 id='comment-post-message'&gt;&lt;data:postCommentMsg/&gt;&lt;/h4&gt;
+      &lt;p&gt;&lt;data:blogCommentMessage/&gt;&lt;/p&gt;
+      &lt;data:blogTeamBlogMessage/&gt;
+      &lt;a expr:href='data:post.commentFormIframeSrc' id='comment-editor-src'/&gt;
+      &lt;iframe allowtransparency='true' class='blogger-iframe-colorize blogger-comment-from-post' frameborder='0' height='410' id='comment-editor' name='comment-editor' src='' width='100%'/&gt;
+    &lt;/b:if&gt;
+    &lt;data:post.friendConnectJs/&gt;
+    &lt;data:post.cmtfpIframe/&gt;
+    &lt;script type='text/javascript'&gt;
+      BLOG_CMT_createIframe(&amp;#39;&lt;data:post.appRpcRelayPath/&gt;&amp;#39;, &amp;#39;&lt;data:post.communityId/&gt;&amp;#39;);
+    &lt;/script&gt;
+  &lt;/div&gt;
+&lt;/b:includable&gt;
+        &lt;b:includable id='commentDeleteIcon' var='comment'&gt;
+  &lt;span expr:class='&amp;quot;item-control &amp;quot; + data:comment.adminClass'&gt;
+    &lt;b:if cond='data:showCmtPopup'&gt;
+      &lt;div class='goog-toggle-button'&gt;
+        &lt;div class='goog-inline-block comment-action-icon'/&gt;
+      &lt;/div&gt;
+    &lt;b:else/&gt;
+      &lt;a class='comment-delete' expr:href='data:comment.deleteUrl' expr:title='data:top.deleteCommentMsg'&gt;
+        &lt;img src='//www.blogger.com/img/icon_delete13.gif'/&gt;
+      &lt;/a&gt;
+    &lt;/b:if&gt;
+  &lt;/span&gt;
+&lt;/b:includable&gt;
+        &lt;b:includable id='comment_count_picker' var='post'&gt;
+  &lt;b:if cond='data:post.commentSource == 1'&gt;
+    &lt;span class='cmt_count_iframe_holder' expr:data-count='data:post.numComments' expr:data-onclick='data:post.addCommentOnclick' expr:data-post-url='data:post.url' expr:data-url='data:post.canonicalUrl'&gt;
+    &lt;/span&gt;
+  &lt;b:else/&gt;
+    &lt;a class='comment-link' expr:href='data:post.addCommentUrl' expr:onclick='data:post.addCommentOnclick'&gt;
+      &lt;data:post.commentLabelFull/&gt;:
+    &lt;/a&gt;
+  &lt;/b:if&gt;
+&lt;/b:includable&gt;
+        &lt;b:includable id='comment_picker' var='post'&gt;
+  &lt;b:if cond='data:post.commentSource == 1'&gt;
+    &lt;b:include data='post' name='iframe_comments'/&gt;
+  &lt;b:else/&gt;
+    &lt;b:if cond='data:post.showThreadedComments'&gt;
+      &lt;b:include data='post' name='threaded_comments'/&gt;
+    &lt;b:else/&gt;
+      &lt;b:include data='post' name='comments'/&gt;
+    &lt;/b:if&gt;
+  &lt;/b:if&gt;
+&lt;/b:includable&gt;
+        &lt;b:includable id='comments' var='post'&gt;
+  &lt;div class='comments' id='comments'&gt;
+    &lt;a name='comments'/&gt;
+    &lt;b:if cond='data:post.allowComments'&gt;
+      &lt;h4&gt;
+        &lt;b:if cond='data:post.numComments == 1'&gt;
+          1 &lt;data:commentLabel/&gt;:
+        &lt;b:else/&gt;
+          &lt;data:post.numComments/&gt; &lt;data:commentLabelPlural/&gt;:
+        &lt;/b:if&gt;
+      &lt;/h4&gt;
+
+      &lt;b:if cond='data:post.commentPagingRequired'&gt;
+        &lt;span class='paging-control-container'&gt;
+          &lt;a expr:class='data:post.oldLinkClass' expr:href='data:post.oldestLinkUrl'&gt;&lt;data:post.oldestLinkText/&gt;&lt;/a&gt;
+          &amp;#160;
+          &lt;a expr:class='data:post.oldLinkClass' expr:href='data:post.olderLinkUrl'&gt;&lt;data:post.olderLinkText/&gt;&lt;/a&gt;
+          &amp;#160;
+          &lt;data:post.commentRangeText/&gt;
+          &amp;#160;
+          &lt;a expr:class='data:post.newLinkClass' expr:href='data:post.newerLinkUrl'&gt;&lt;data:post.newerLinkText/&gt;&lt;/a&gt;
+          &amp;#160;
+          &lt;a expr:class='data:post.newLinkClass' expr:href='data:post.newestLinkUrl'&gt;&lt;data:post.newestLinkText/&gt;&lt;/a&gt;
+        &lt;/span&gt;
+      &lt;/b:if&gt;
+
+      &lt;div expr:id='data:widget.instanceId + &amp;quot;_comments-block-wrapper&amp;quot;'&gt;
+        &lt;dl expr:class='data:post.avatarIndentClass' id='comments-block'&gt;
+          &lt;b:loop values='data:post.comments' var='comment'&gt;
+            &lt;dt expr:class='&amp;quot;comment-author &amp;quot; + data:comment.authorClass' expr:id='data:comment.anchorName'&gt;
+              &lt;b:if cond='data:comment.favicon'&gt;
+                &lt;img expr:src='data:comment.favicon' height='16px' style='margin-bottom:-2px;' width='16px'/&gt;
+              &lt;/b:if&gt;
+              &lt;a expr:name='data:comment.anchorName'/&gt;
+              &lt;b:if cond='data:blog.enabledCommentProfileImages'&gt;
+                &lt;data:comment.authorAvatarImage/&gt;
+              &lt;/b:if&gt;
+              &lt;b:if cond='data:comment.authorUrl'&gt;
+                &lt;a expr:href='data:comment.authorUrl' rel='nofollow'&gt;&lt;data:comment.author/&gt;&lt;/a&gt;
+              &lt;b:else/&gt;
+                &lt;data:comment.author/&gt;
+              &lt;/b:if&gt;
+              &lt;data:commentPostedByMsg/&gt;
+            &lt;/dt&gt;
+            &lt;dd class='comment-body' expr:id='data:widget.instanceId + data:comment.cmtBodyIdPostfix'&gt;
+              &lt;b:if cond='data:comment.isDeleted'&gt;
+                &lt;span class='deleted-comment'&gt;&lt;data:comment.body/&gt;&lt;/span&gt;
+              &lt;b:else/&gt;
+                &lt;p&gt;
+                  &lt;data:comment.body/&gt;
+                &lt;/p&gt;
+              &lt;/b:if&gt;
+            &lt;/dd&gt;
+            &lt;dd class='comment-footer'&gt;
+              &lt;span class='comment-timestamp'&gt;
+                &lt;a expr:href='data:comment.url' title='comment permalink'&gt;
+                  &lt;data:comment.timestamp/&gt;
+                &lt;/a&gt;
+                &lt;b:include data='comment' name='commentDeleteIcon'/&gt;
+              &lt;/span&gt;
+            &lt;/dd&gt;
+          &lt;/b:loop&gt;
+        &lt;/dl&gt;
+      &lt;/div&gt;
+
+      &lt;b:if cond='data:post.commentPagingRequired'&gt;
+        &lt;span class='paging-control-container'&gt;
+          &lt;a expr:class='data:post.oldLinkClass' expr:href='data:post.oldestLinkUrl'&gt;
+            &lt;data:post.oldestLinkText/&gt;
+          &lt;/a&gt;
+          &lt;a expr:class='data:post.oldLinkClass' expr:href='data:post.olderLinkUrl'&gt;
+            &lt;data:post.olderLinkText/&gt;
+          &lt;/a&gt;
+          &amp;#160;
+          &lt;data:post.commentRangeText/&gt;
+          &amp;#160;
+          &lt;a expr:class='data:post.newLinkClass' expr:href='data:post.newerLinkUrl'&gt;
+            &lt;data:post.newerLinkText/&gt;
+          &lt;/a&gt;
+          &lt;a expr:class='data:post.newLinkClass' expr:href='data:post.newestLinkUrl'&gt;
+            &lt;data:post.newestLinkText/&gt;
+          &lt;/a&gt;
+        &lt;/span&gt;
+      &lt;/b:if&gt;
+
+      &lt;p class='comment-footer'&gt;
+        &lt;b:if cond='data:post.embedCommentForm'&gt;
+          &lt;b:if cond='data:post.allowNewComments'&gt;
+            &lt;b:include data='post' name='comment-form'/&gt;
+          &lt;b:else/&gt;
+            &lt;data:post.noNewCommentsText/&gt;
+          &lt;/b:if&gt;
+        &lt;b:else/&gt;
+          &lt;b:if cond='data:post.allowComments'&gt;
+            &lt;a expr:href='data:post.addCommentUrl' expr:onclick='data:post.addCommentOnclick'&gt;&lt;data:postCommentMsg/&gt;&lt;/a&gt;
+          &lt;/b:if&gt;
+        &lt;/b:if&gt;
+
+      &lt;/p&gt;
+    &lt;/b:if&gt;
+    &lt;b:if cond='data:showCmtPopup'&gt;
+      &lt;div id='comment-popup'&gt;
+        &lt;iframe allowtransparency='true' frameborder='0' id='comment-actions' name='comment-actions' scrolling='no'&gt;
+        &lt;/iframe&gt;
+      &lt;/div&gt;
+    &lt;/b:if&gt;
+
+    &lt;div id='backlinks-container'&gt;
+    &lt;div expr:id='data:widget.instanceId + &amp;quot;_backlinks-container&amp;quot;'&gt;
+       &lt;b:if cond='data:post.showBacklinks'&gt;
+         &lt;b:include data='post' name='backlinks'/&gt;
+       &lt;/b:if&gt;
+    &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/b:includable&gt;
+        &lt;b:includable id='feedLinks'&gt;
+  &lt;b:if cond='data:blog.pageType != &amp;quot;item&amp;quot;'&gt; &lt;!-- Blog feed links --&gt;
+    &lt;b:if cond='data:feedLinks'&gt;
+      &lt;div class='blog-feeds'&gt;
+      &lt;/div&gt;
+    &lt;/b:if&gt;
+
+    &lt;b:else/&gt; &lt;!--Post feed links --&gt;
+    &lt;div class='post-feeds'&gt;
+      &lt;b:loop values='data:posts' var='post'&gt;
+        &lt;b:if cond='data:post.allowComments'&gt;
+          &lt;b:if cond='data:post.feedLinks'&gt;
+            &lt;b:include data='post.feedLinks' name='feedLinksBody'/&gt;
+          &lt;/b:if&gt;
+        &lt;/b:if&gt;
+      &lt;/b:loop&gt;
+    &lt;/div&gt;
+  &lt;/b:if&gt;
+&lt;/b:includable&gt;
+        &lt;b:includable id='feedLinksBody' var='links'&gt;
+  &lt;div class='feed-links'&gt;
+  &lt;data:feedLinksMsg/&gt;
+  &lt;b:loop values='data:links' var='f'&gt;
+     &lt;a class='feed-link' expr:href='data:f.url' expr:type='data:f.mimeType' target='_blank'&gt;&lt;data:f.name/&gt; (&lt;data:f.feedType/&gt;)&lt;/a&gt;
+  &lt;/b:loop&gt;
+  &lt;/div&gt;
+&lt;/b:includable&gt;
+        &lt;b:includable id='iframe_comments' var='post'&gt;
+
+  &lt;b:if cond='data:post.allowComments'&gt;
+    &lt;script expr:src='data:post.commentSrc' type='text/javascript'/&gt;
+    &lt;div class='cmt_iframe_holder'/&gt;
+
+    &lt;b:if cond='data:post.embedCommentForm == &amp;quot;false&amp;quot;'&gt;
+      &lt;a expr:href='data:post.addCommentUrl' expr:onclick='data:post.addCommentOnclick'&gt;&lt;data:postCommentMsg/&gt;&lt;/a&gt;
+    &lt;/b:if&gt;
+  &lt;/b:if&gt;
+&lt;/b:includable&gt;
+        &lt;b:includable id='mobile-index-post' var='post'&gt;
+  &lt;div class='mobile-date-outer date-outer'&gt;
+    &lt;b:if cond='data:post.dateHeader'&gt;
+      &lt;div class='date-header'&gt;
+        &lt;span&gt;&lt;data:post.dateHeader/&gt;&lt;/span&gt;
+      &lt;/div&gt;
+    &lt;/b:if&gt;
+
+    &lt;div class='mobile-post-outer'&gt;
+      &lt;a expr:href='data:post.url'&gt;
+        &lt;h3 class='mobile-index-title entry-title'&gt;
+          &lt;data:post.title/&gt;
+        &lt;/h3&gt;
+
+        &lt;div class='mobile-index-arrow'&gt;&amp;amp;rsaquo;&lt;/div&gt;
+
+        &lt;div class='mobile-index-contents'&gt;
+          &lt;b:if cond='data:post.thumbnailUrl'&gt;
+            &lt;div class='mobile-index-thumbnail'&gt;
+              &lt;div class='Image'&gt;
+                &lt;img expr:src='data:post.thumbnailUrl'/&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+          &lt;/b:if&gt;
+
+          &lt;div class='post-body'&gt;
+            &lt;b:if cond='data:post.snippet'&gt;&lt;data:post.snippet/&gt;&lt;/b:if&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+
+        &lt;div style='clear: both;'/&gt;
+      &lt;/a&gt;
+
+      &lt;div class='mobile-index-comment'&gt;
+        &lt;b:if cond='data:blog.pageType != &amp;quot;static_page&amp;quot;'&gt;
+          &lt;b:if cond='data:post.allowComments'&gt;
+            &lt;b:if cond='data:post.numComments != 0'&gt;
+              &lt;a class='comment-link' expr:href='data:post.addCommentUrl' expr:onclick='data:post.addCommentOnclick'&gt;&lt;b:if cond='data:post.numComments == 1'&gt;1 &lt;data:top.commentLabel/&gt;&lt;b:else/&gt;&lt;data:post.numComments/&gt; &lt;data:top.commentLabelPlural/&gt;&lt;/b:if&gt;&lt;/a&gt;
+            &lt;/b:if&gt;
+          &lt;/b:if&gt;
+        &lt;/b:if&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/b:includable&gt;
+        &lt;b:includable id='mobile-main' var='top'&gt;
+    &lt;!-- posts --&gt;
+    &lt;div class='blog-posts hfeed'&gt;
+
+      &lt;b:include data='top' name='status-message'/&gt;
+
+      &lt;b:if cond='data:blog.pageType == &amp;quot;index&amp;quot;'&gt;
+        &lt;b:loop values='data:posts' var='post'&gt;
+          &lt;b:include data='post' name='mobile-index-post'/&gt;
+        &lt;/b:loop&gt;
+      &lt;b:else/&gt;
+        &lt;b:loop values='data:posts' var='post'&gt;
+          &lt;b:include data='post' name='mobile-post'/&gt;
+        &lt;/b:loop&gt;
+      &lt;/b:if&gt;
+    &lt;/div&gt;
+
+   &lt;b:include name='mobile-nextprev'/&gt;
+&lt;/b:includable&gt;
+        &lt;b:includable id='mobile-nextprev'&gt;
+  &lt;div class='blog-pager' id='blog-pager'&gt;
+    &lt;b:if cond='data:newerPageUrl'&gt;
+      &lt;div class='mobile-link-button' id='blog-pager-newer-link'&gt;
+      &lt;a class='blog-pager-newer-link' expr:href='data:newerPageUrl' expr:id='data:widget.instanceId + &amp;quot;_blog-pager-newer-link&amp;quot;' expr:title='data:newerPageTitle'&gt;&amp;amp;lsaquo;&lt;/a&gt;
+      &lt;/div&gt;
+    &lt;/b:if&gt;
+
+    &lt;b:if cond='data:olderPageUrl'&gt;
+      &lt;div class='mobile-link-button' id='blog-pager-older-link'&gt;
+      &lt;a class='blog-pager-older-link' expr:href='data:olderPageUrl' expr:id='data:widget.instanceId + &amp;quot;_blog-pager-older-link&amp;quot;' expr:title='data:olderPageTitle'&gt;&amp;amp;rsaquo;&lt;/a&gt;
+      &lt;/div&gt;
+    &lt;/b:if&gt;
+
+    &lt;div class='mobile-link-button' id='blog-pager-home-link'&gt;
+    &lt;a class='home-link' expr:href='data:blog.homepageUrl'&gt;&lt;data:homeMsg/&gt;&lt;/a&gt;
+    &lt;/div&gt;
+
+    &lt;div class='mobile-desktop-link'&gt;
+      &lt;a class='home-link' expr:href='data:desktopLinkUrl'&gt;&lt;data:desktopLinkMsg/&gt;&lt;/a&gt;
+    &lt;/div&gt;
+
+  &lt;/div&gt;
+  &lt;div class='clear'/&gt;
+&lt;/b:includable&gt;
+        &lt;b:includable id='mobile-post' var='post'&gt;
+  &lt;div class='date-outer'&gt;
+    &lt;b:if cond='data:post.dateHeader'&gt;
+      &lt;h2 class='date-header'&gt;&lt;span&gt;&lt;data:post.dateHeader/&gt;&lt;/span&gt;&lt;/h2&gt;
+    &lt;/b:if&gt;
+    &lt;div class='date-posts'&gt;
+      &lt;div class='post-outer'&gt;
+
+        &lt;div class='post hentry uncustomized-post-template'&gt;
+          &lt;a expr:name='data:post.id'/&gt;
+          &lt;b:if cond='data:post.title'&gt;
+            &lt;h3 class='post-title entry-title'&gt;
+              &lt;b:if cond='data:post.link'&gt;
+                &lt;a expr:href='data:post.link'&gt;&lt;data:post.title/&gt;&lt;/a&gt;
+              &lt;b:else/&gt;
+                &lt;b:if cond='data:post.url'&gt;
+                  &lt;b:if cond='data:blog.url != data:post.url'&gt;
+                    &lt;a expr:href='data:post.url'&gt;&lt;data:post.title/&gt;&lt;/a&gt;
+                  &lt;b:else/&gt;
+                    &lt;data:post.title/&gt;
+                  &lt;/b:if&gt;
+                &lt;b:else/&gt;
+                  &lt;data:post.title/&gt;
+                &lt;/b:if&gt;
+              &lt;/b:if&gt;
+            &lt;/h3&gt;
+          &lt;/b:if&gt;
+
+          &lt;div class='post-header'&gt;
+            &lt;div class='post-header-line-1'/&gt;
+          &lt;/div&gt;
+
+          &lt;div class='post-body entry-content' expr:id='&amp;quot;post-body-&amp;quot; + data:post.id'&gt;
+            &lt;data:post.body/&gt;
+            &lt;div style='clear: both;'/&gt; &lt;!-- clear for photos floats --&gt;
+          &lt;/div&gt;
+
+          &lt;div class='post-footer'&gt;
+            &lt;div class='post-footer-line post-footer-line-1'&gt;
+              &lt;span class='post-author vcard'&gt;
+                &lt;b:if cond='data:top.showAuthor'&gt;
+                  &lt;b:if cond='data:post.authorProfileUrl'&gt;
+                    &lt;span class='fn'&gt;
+                      &lt;a expr:href='data:post.authorProfileUrl' rel='author' title='author profile'&gt;
+                        &lt;data:post.author/&gt;
+                      &lt;/a&gt;
+                    &lt;/span&gt;
+                  &lt;b:else/&gt;
+                    &lt;span class='fn'&gt;&lt;data:post.author/&gt;&lt;/span&gt;
+                  &lt;/b:if&gt;
+                &lt;/b:if&gt;
+              &lt;/span&gt;
+
+              &lt;span class='post-timestamp'&gt;
+                &lt;b:if cond='data:top.showTimestamp'&gt;
+                  &lt;data:top.timestampLabel/&gt;
+                  &lt;b:if cond='data:post.url'&gt;
+                    &lt;a class='timestamp-link' expr:href='data:post.url' rel='bookmark' title='permanent link'&gt;&lt;abbr class='published' expr:title='data:post.timestampISO8601'&gt;&lt;data:post.timestamp/&gt;&lt;/abbr&gt;&lt;/a&gt;
+                  &lt;/b:if&gt;
+                &lt;/b:if&gt;
+              &lt;/span&gt;
+
+              &lt;span class='post-comment-link'&gt;
+                &lt;b:if cond='data:blog.pageType != &amp;quot;item&amp;quot;'&gt;
+                  &lt;b:if cond='data:blog.pageType != &amp;quot;static_page&amp;quot;'&gt;
+                    &lt;b:if cond='data:post.allowComments'&gt;
+                      &lt;a class='comment-link' expr:href='data:post.addCommentUrl' expr:onclick='data:post.addCommentOnclick'&gt;&lt;b:if cond='data:post.numComments == 1'&gt;1 &lt;data:top.commentLabel/&gt;&lt;b:else/&gt;&lt;data:post.numComments/&gt; &lt;data:top.commentLabelPlural/&gt;&lt;/b:if&gt;&lt;/a&gt;
+                    &lt;/b:if&gt;
+                  &lt;/b:if&gt;
+                &lt;/b:if&gt;
+              &lt;/span&gt;
+            &lt;/div&gt;
+
+            &lt;div class='post-footer-line post-footer-line-2'&gt;
+              &lt;b:if cond='data:top.showMobileShare'&gt;
+                &lt;div class='mobile-link-button goog-inline-block' id='mobile-share-button'&gt;
+                  &lt;a href='javascript:void(0);'&gt;&lt;data:shareMsg/&gt;&lt;/a&gt;
+                &lt;/div&gt;
+              &lt;/b:if&gt;
+              &lt;b:if cond='data:top.showDummy'&gt;
+                &lt;div class='goog-inline-block dummy-container'&gt;&lt;data:post.dummyTag/&gt;&lt;/div&gt;
+              &lt;/b:if&gt;
+            &lt;/div&gt;
+
+          &lt;/div&gt;
+        &lt;/div&gt;
+
+        &lt;b:if cond='data:blog.pageType == &amp;quot;static_page&amp;quot;'&gt;
+          &lt;b:if cond='data:post.showThreadedComments'&gt;
+            &lt;b:include data='post' name='threaded_comments'/&gt;
+          &lt;b:else/&gt;
+            &lt;b:include data='post' name='comments'/&gt;
+          &lt;/b:if&gt;
+        &lt;/b:if&gt;
+        &lt;b:if cond='data:blog.pageType == &amp;quot;item&amp;quot;'&gt;
+          &lt;b:if cond='data:post.showThreadedComments'&gt;
+            &lt;b:include data='post' name='threaded_comments'/&gt;
+          &lt;b:else/&gt;
+            &lt;b:include data='post' name='comments'/&gt;
+          &lt;/b:if&gt;
+        &lt;/b:if&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/b:includable&gt;
+        &lt;b:includable id='nextprev'&gt;
+  &lt;div class='blog-pager' id='blog-pager'&gt;
+    &lt;b:if cond='data:newerPageUrl'&gt;
+      &lt;span id='blog-pager-newer-link'&gt;
+      &lt;a class='blog-pager-newer-link' expr:href='data:newerPageUrl' expr:id='data:widget.instanceId + &amp;quot;_blog-pager-newer-link&amp;quot;' expr:title='data:newerPageTitle'&gt;&lt;data:newerPageTitle/&gt;&lt;/a&gt;
+      &lt;/span&gt;
+    &lt;/b:if&gt;
+
+    &lt;b:if cond='data:olderPageUrl'&gt;
+      &lt;span id='blog-pager-older-link'&gt;
+      &lt;a class='blog-pager-older-link' expr:href='data:olderPageUrl' expr:id='data:widget.instanceId + &amp;quot;_blog-pager-older-link&amp;quot;' expr:title='data:olderPageTitle'&gt;&lt;data:olderPageTitle/&gt;&lt;/a&gt;
+      &lt;/span&gt;
+    &lt;/b:if&gt;
+
+    &lt;b:if cond='data:mobileLinkUrl'&gt;
+      &lt;div class='blog-mobile-link'&gt;
+        &lt;a expr:href='data:mobileLinkUrl'&gt;&lt;data:mobileLinkMsg/&gt;&lt;/a&gt;
+      &lt;/div&gt;
+    &lt;/b:if&gt;
+
+  &lt;/div&gt;
+  &lt;div class='clear'/&gt;
+&lt;/b:includable&gt;
+        &lt;b:includable id='post' var='post'&gt;
+&lt;article class='post hentry'&gt;
+&lt;div class='post-cover'&gt;
+    &lt;a expr:name='data:post.id'/&gt;
+
+  &lt;header class='entry-header'&gt;
+    &lt;b:if cond='data:post.title'&gt;
+      &lt;h2 class='post-title entry-title'&gt;
+     &lt;b:if cond='data:post.link'&gt;
+       &lt;a expr:href='data:post.link'&gt;&lt;data:post.title/&gt;&lt;/a&gt;
+     &lt;b:else/&gt;
+        &lt;b:if cond='data:post.url'&gt;
+          &lt;a expr:href='data:post.url'&gt;&lt;data:post.title/&gt;&lt;/a&gt;
+        &lt;b:else/&gt;
+          &lt;data:post.title/&gt;
+        &lt;/b:if&gt;
+     &lt;/b:if&gt;
+      &lt;/h2&gt;
+    &lt;/b:if&gt;
+  &lt;/header&gt;
+
+    &lt;div class='post-header-line-1'/&gt;
+
+&lt;div class='post-body entry-content'&gt;
+
+&lt;p&gt;
+&lt;b:if cond='data:blog.pageType != &amp;quot;static_page&amp;quot;'&gt;
+&lt;b:if cond='data:blog.pageType != &amp;quot;item&amp;quot;'&gt;
+&lt;div expr:id='&amp;quot;summary&amp;quot; + data:post.id'&gt;&lt;data:post.body/&gt;&lt;/div&gt;
+&lt;/b:if&gt;
+&lt;/b:if&gt;
+&lt;b:if cond='data:blog.pageType == &amp;quot;item&amp;quot;'&gt;&lt;data:post.body/&gt;&lt;/b:if&gt;
+
+&lt;b:if cond='data:blog.pageType == &amp;quot;static_page&amp;quot;'&gt;&lt;data:post.body/&gt;&lt;/b:if&gt;&lt;/p&gt;
+
+&lt;b:if cond='data:blog.pageType == &amp;quot;item&amp;quot;'&gt;
+&lt;div style='clear:both;'/&gt;
+&lt;div class='post-share-buttons'&gt;
+&lt;b:include data='post' name='shareButtons'/&gt;
+&lt;/div&gt;
+&lt;span class='reaction-buttons'&gt;
+&lt;b:if cond='data:top.showReactions'&gt;
+&lt;table border='0' cellpadding='0' width='100%'&gt;&lt;tr&gt;
+&lt;td style='font-size:12px;padding-top:2px;' valign='top'&gt;&lt;span class='reactions-label'&gt;&lt;data:top.reactionsLabel/&gt;&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;&lt;iframe allowtransparency='true' class='reactions-iframe' expr:src='data:post.reactionsUrl' frameborder='0' name='reactions' scrolling='no'/&gt;&lt;/td&gt;
+&lt;/tr&gt;&lt;/table&gt;
+&lt;/b:if&gt;
+&lt;/span&gt;
+&lt;/b:if&gt;
+
+      &lt;div style='clear: both;'/&gt; &lt;!-- clear for photos floats --&gt;
+&lt;/div&gt;
+
+&lt;footer class='entry-meta'&gt;
+  &lt;span class='clock' style='background:url(&amp;quot;http://3.bp.blogspot.com/-jWAb-PA5QKY/UPcd1KDKb4I/AAAAAAAAECs/xEIvRu3_dXQ/s000/date.png&amp;quot;) no-repeat center left;padding-left:20px;'&gt;&lt;data:post.timestamp/&gt;&lt;/span&gt; 
+  &lt;span class='comments-link' style='background:url(&amp;quot;http://2.bp.blogspot.com/-fjYDE2POLsk/UPcd1bHzY_I/AAAAAAAAEC0/iz9Zfy1dkqw/s000/comment.png&amp;quot;) no-repeat center left;padding-left:20px;'&gt;&lt;b:if cond='data:post.allowComments'&gt;&lt;a expr:href='data:post.addCommentUrl' expr:onclick='data:post.addCommentOnclick'&gt;&lt;b:if cond='data:post.numComments == 0'&gt;No comments&lt;/b:if&gt;&lt;b:if cond='data:post.numComments == 1'&gt;1 comment&lt;/b:if&gt;&lt;b:if cond='data:post.numComments &amp;gt;= 2'&gt;&lt;data:post.numComments/&gt; comments&lt;/b:if&gt;&lt;/a&gt;&lt;/b:if&gt;&lt;/span&gt;
+  &lt;b:if cond='data:blog.pageType != &amp;quot;static_page&amp;quot;'&gt;&lt;b:if cond='data:blog.pageType != &amp;quot;item&amp;quot;'&gt;&lt;span class='perml' style='background:url(&amp;quot;http://2.bp.blogspot.com/-Hh6NXLYw9qQ/UPcd1utN8pI/AAAAAAAAEC8/917z-4ctpx4/s000/permalink.png&amp;quot;) no-repeat center left;padding-left:20px;'&gt;&lt;a expr:href='data:post.url'&gt;READ MORE&lt;/a&gt;&lt;/span&gt;&lt;/b:if&gt;&lt;/b:if&gt;  
+&lt;/footer&gt;
+  
+    &lt;b:if cond='data:post.hasJumpLink'&gt;
+      &lt;div class='jump-link'&gt;
+        &lt;a expr:href='data:post.url + &amp;quot;#more&amp;quot;'&gt;&lt;data:post.jumpText/&gt;&lt;/a&gt;  
+      &lt;/div&gt;
+    &lt;/b:if&gt;
+    
+    &lt;div class='post-footer'&gt;
+
+&lt;div class='post-footer-line post-footer-line-'/&gt;
+&lt;div class='post-footer-line post-footer-line-2'/&gt;
+&lt;div class='post-footer-line post-footer-line-3'&gt;
+
+&lt;!-- Feature added by BTemplates.com --&gt;
+  &lt;b:include data='post' name='postQuickEdit'/&gt;
+&lt;/div&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/article&gt;
+&lt;div style='clear: both;'/&gt;
+
+&lt;b:if cond='data:blog.pageType == &amp;quot;item&amp;quot;'&gt;
+&lt;!-- navigation --&gt;
+&lt;b:include name='nextprev'/&gt;
+&lt;/b:if&gt;
+
+&lt;/b:includable&gt;
+        &lt;b:includable id='postQuickEdit' var='post'&gt;
+  &lt;b:if cond='data:post.editUrl'&gt;
+    &lt;span expr:class='&amp;quot;item-control &amp;quot; + data:post.adminClass'&gt;
+      &lt;a expr:href='data:post.editUrl' expr:title='data:top.editPostMsg'&gt;
+        &lt;img alt='' class='icon-action' height='18' src='http://img2.blogblog.com/img/icon18_edit_allbkg.gif' width='18'/&gt;
+      &lt;/a&gt;
+    &lt;/span&gt;
+  &lt;/b:if&gt;
+&lt;/b:includable&gt;
+        &lt;b:includable id='shareButtons' var='post'&gt;
+  &lt;b:if cond='data:top.showEmailButton'&gt;&lt;a class='goog-inline-block share-button sb-email' expr:href='data:post.sharePostUrl + &amp;quot;&amp;amp;target=email&amp;quot;' expr:title='data:top.emailThisMsg' target='_blank'&gt;&lt;span class='share-button-link-text'&gt;&lt;data:top.emailThisMsg/&gt;&lt;/span&gt;&lt;/a&gt;&lt;/b:if&gt;&lt;b:if cond='data:top.showBlogThisButton'&gt;&lt;a class='goog-inline-block share-button sb-blog' expr:href='data:post.sharePostUrl + &amp;quot;&amp;amp;target=blog&amp;quot;' expr:onclick='&amp;quot;window.open(this.href, \&amp;quot;_blank\&amp;quot;, \&amp;quot;height=270,width=475\&amp;quot;); return false;&amp;quot;' expr:title='data:top.blogThisMsg' target='_blank'&gt;&lt;span class='share-button-link-text'&gt;&lt;data:top.blogThisMsg/&gt;&lt;/span&gt;&lt;/a&gt;&lt;/b:if&gt;&lt;b:if cond='data:top.showTwitterButton'&gt;&lt;a class='goog-inline-block share-button sb-twitter' expr:href='data:post.sharePostUrl + &amp;quot;&amp;amp;target=twitter&amp;quot;' expr:title='data:top.shareToTwitterMsg' target='_blank'&gt;&lt;span class='share-button-link-text'&gt;&lt;data:top.shareToTwitterMsg/&gt;&lt;/span&gt;&lt;/a&gt;&lt;/b:if&gt;&lt;b:if cond='data:top.showFacebookButton'&gt;&lt;a class='goog-inline-block share-button sb-facebook' expr:href='data:post.sharePostUrl + &amp;quot;&amp;amp;target=facebook&amp;quot;' expr:onclick='&amp;quot;window.open(this.href, \&amp;quot;_blank\&amp;quot;, \&amp;quot;height=430,width=640\&amp;quot;); return false;&amp;quot;' expr:title='data:top.shareToFacebookMsg' target='_blank'&gt;&lt;span class='share-button-link-text'&gt;&lt;data:top.shareToFacebookMsg/&gt;&lt;/span&gt;&lt;/a&gt;&lt;/b:if&gt;&lt;b:if cond='data:top.showOrkutButton'&gt;&lt;a class='goog-inline-block share-button sb-orkut' expr:href='data:post.sharePostUrl + &amp;quot;&amp;amp;target=orkut&amp;quot;' expr:title='data:top.shareToOrkutMsg' target='_blank'&gt;&lt;span class='share-button-link-text'&gt;&lt;data:top.shareToOrkutMsg/&gt;&lt;/span&gt;&lt;/a&gt;&lt;/b:if&gt;&lt;b:if cond='data:top.showDummy'&gt;&lt;div class='goog-inline-block dummy-container'&gt;&lt;data:post.dummyTag/&gt;&lt;/div&gt;&lt;/b:if&gt;
+&lt;/b:includable&gt;
+        &lt;b:includable id='status-message'&gt;
+  &lt;b:if cond='data:navMessage'&gt;
+  &lt;div class='status-msg-wrap'&gt;
+    &lt;div class='status-msg-body'&gt;
+      &lt;data:navMessage/&gt;
+    &lt;/div&gt;
+    &lt;div class='status-msg-border'&gt;
+      &lt;div class='status-msg-bg'&gt;
+        &lt;div class='status-msg-hidden'&gt;&lt;data:navMessage/&gt;&lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div style='clear: both;'/&gt;
+  &lt;/b:if&gt;
+&lt;/b:includable&gt;
+        &lt;b:includable id='threaded-comment-form' var='post'&gt;
+  &lt;div class='comment-form'&gt;
+    &lt;a name='comment-form'/&gt;
+    &lt;b:if cond='data:mobile'&gt;
+      &lt;p&gt;&lt;data:blogCommentMessage/&gt;&lt;/p&gt;
+      &lt;data:blogTeamBlogMessage/&gt;
+      &lt;a expr:href='data:post.commentFormIframeSrc' id='comment-editor-src'/&gt;
+      &lt;iframe allowtransparency='true' class='blogger-iframe-colorize blogger-comment-from-post' frameborder='0' height='410' id='comment-editor' name='comment-editor' src='' style='display: none' width='100%'/&gt;
+    &lt;b:else/&gt;
+      &lt;p&gt;&lt;data:blogCommentMessage/&gt;&lt;/p&gt;
+      &lt;data:blogTeamBlogMessage/&gt;
+      &lt;a expr:href='data:post.commentFormIframeSrc' id='comment-editor-src'/&gt;
+      &lt;iframe allowtransparency='true' class='blogger-iframe-colorize blogger-comment-from-post' frameborder='0' height='410' id='comment-editor' name='comment-editor' src='' width='100%'/&gt;
+    &lt;/b:if&gt;
+    &lt;data:post.friendConnectJs/&gt;
+    &lt;data:post.cmtfpIframe/&gt;
+    &lt;script type='text/javascript'&gt;
+      BLOG_CMT_createIframe(&amp;#39;&lt;data:post.appRpcRelayPath/&gt;&amp;#39;, &amp;#39;&lt;data:post.communityId/&gt;&amp;#39;);
+    &lt;/script&gt;
+  &lt;/div&gt;
+&lt;/b:includable&gt;
+        &lt;b:includable id='threaded_comment_js' var='post'&gt;
+  &lt;script async='async' expr:src='data:post.commentSrc' type='text/javascript'/&gt;
+
+  &lt;script type='text/javascript'&gt;
+    (function() {
+      var items = &lt;data:post.commentJso/&gt;;
+      var msgs = &lt;data:post.commentMsgs/&gt;;
+      var config = &lt;data:post.commentConfig/&gt;;
+
+// &lt;![CDATA[
+      var cursor = null;
+      if (items &amp;&amp; items.length &gt; 0) {
+        cursor = parseInt(items[items.length - 1].timestamp) + 1;
+      }
+
+      var bodyFromEntry = function(entry) {
+        if (entry.gd$extendedProperty) {
+          for (var k in entry.gd$extendedProperty) {
+            if (entry.gd$extendedProperty[k].name == 'blogger.contentRemoved') {
+              return '&lt;span class="deleted-comment"&gt;' + entry.content.$t + '&lt;/span&gt;';
+            }
+          }
+        }
+        return entry.content.$t;
+      }
+
+      var parse = function(data) {
+        cursor = null;
+        var comments = [];
+        if (data &amp;&amp; data.feed &amp;&amp; data.feed.entry) {
+          for (var i = 0, entry; entry = data.feed.entry[i]; i++) {
+            var comment = {};
+            // comment ID, parsed out of the original id format
+            var id = /blog-(\d+).post-(\d+)/.exec(entry.id.$t);
+            comment.id = id ? id[2] : null;
+            comment.body = bodyFromEntry(entry);
+            comment.timestamp = Date.parse(entry.published.$t) + '';
+            if (entry.author &amp;&amp; entry.author.constructor === Array) {
+              var auth = entry.author[0];
+              if (auth) {
+                comment.author = {
+                  name: (auth.name ? auth.name.$t : undefined),
+                  profileUrl: (auth.uri ? auth.uri.$t : undefined),
+                  avatarUrl: (auth.gd$image ? auth.gd$image.src : undefined)
+                };
+              }
+            }
+            if (entry.link) {
+              if (entry.link[2]) {
+                comment.link = comment.permalink = entry.link[2].href;
+              }
+              if (entry.link[3]) {
+                var pid = /.*comments\/default\/(\d+)\?.*/.exec(entry.link[3].href);
+                if (pid &amp;&amp; pid[1]) {
+                  comment.parentId = pid[1];
+                }
+              }
+            }
+            comment.deleteclass = 'item-control blog-admin';
+            if (entry.gd$extendedProperty) {
+              for (var k in entry.gd$extendedProperty) {
+                if (entry.gd$extendedProperty[k].name == 'blogger.itemClass') {
+                  comment.deleteclass += ' ' + entry.gd$extendedProperty[k].value;
+                }
+              }
+            }
+            comments.push(comment);
+          }
+        }
+        return comments;
+      };
+
+      var paginator = function(callback) {
+        if (hasMore()) {
+          var url = config.feed + '?alt=json&amp;v=2&amp;orderby=published&amp;reverse=false&amp;max-results=50';
+          if (cursor) {
+            url += '&amp;published-min=' + new Date(cursor).toISOString();
+          }
+          window.bloggercomments = function(data) {
+            var parsed = parse(data);
+            cursor = parsed.length &lt; 50 ? null
+                : parseInt(parsed[parsed.length - 1].timestamp) + 1
+            callback(parsed);
+            window.bloggercomments = null;
+          }
+          url += '&amp;callback=bloggercomments';
+          var script = document.createElement('script');
+          script.type = 'text/javascript';
+          script.src = url;
+          document.getElementsByTagName('head')[0].appendChild(script);
+        }
+      };
+      var hasMore = function() {
+        return !!cursor;
+      };
+      var getMeta = function(key, comment) {
+        if ('iswriter' == key) {
+          var matches = !!comment.author
+              &amp;&amp; comment.author.name == config.authorName
+              &amp;&amp; comment.author.profileUrl == config.authorUrl;
+          return matches ? 'true' : '';
+        } else if ('deletelink' == key) {
+          return config.baseUri + '/delete-comment.g?blogID='
+               + config.blogId + '&amp;postID=' + comment.id;
+        } else if ('deleteclass' == key) {
+          return comment.deleteclass;
+        }
+        return '';
+      };
+
+      var replybox = null;
+      var replyUrlParts = null;
+      var replyParent = undefined;
+
+      var onReply = function(commentId, domId) {
+        if (replybox == null) {
+          // lazily cache replybox, and adjust to suit this style:
+          replybox = document.getElementById('comment-editor');
+          if (replybox != null) {
+            replybox.height = '250px';
+            replybox.style.display = 'block';
+            replyUrlParts = replybox.src.split('#');
+          }
+        }
+        if (replybox &amp;&amp; (commentId !== replyParent)) {
+          document.getElementById(domId).insertBefore(replybox, null);
+          replybox.src = replyUrlParts[0]
+              + (commentId ? '&amp;parentID=' + commentId : '')
+              + '#' + replyUrlParts[1];
+          replyParent = commentId;
+        }
+      };
+
+      var hash = (window.location.hash || '#').substring(1);
+      var startThread, targetComment;
+      if (/^comment-form_/.test(hash)) {
+        startThread = hash.substring('comment-form_'.length);
+      } else if (/^c[0-9]+$/.test(hash)) {
+        targetComment = hash.substring(1);
+      }
+
+      // Configure commenting API:
+      var configJso = {
+        'maxDepth': config.maxThreadDepth
+      };
+      var provider = {
+        'id': config.postId,
+        'data': items,
+        'loadNext': paginator,
+        'hasMore': hasMore,
+        'getMeta': getMeta,
+        'onReply': onReply,
+        'rendered': true,
+        'initComment': targetComment,
+        'initReplyThread': startThread,
+        'config': configJso,
+        'messages': msgs
+      };
+
+      var render = function() {
+        if (window.goog &amp;&amp; window.goog.comments) {
+          var holder = document.getElementById('comment-holder');
+          window.goog.comments.render(holder, provider);
+        }
+      };
+
+      // render now, or queue to render when library loads:
+      if (window.goog &amp;&amp; window.goog.comments) {
+        render();
+      } else {
+        window.goog = window.goog || {};
+        window.goog.comments = window.goog.comments || {};
+        window.goog.comments.loadQueue = window.goog.comments.loadQueue || [];
+        window.goog.comments.loadQueue.push(render);
+      }
+    })();
+// ]]&gt;
+  &lt;/script&gt;
+&lt;/b:includable&gt;
+        &lt;b:includable id='threaded_comments' var='post'&gt;
+  &lt;div class='comments' id='comments'&gt;
+    &lt;a name='comments'/&gt;
+    &lt;h4&gt;&lt;data:post.commentLabelFull/&gt;:&lt;/h4&gt;
+
+    &lt;div class='comments-content'&gt;
+      &lt;b:if cond='data:post.embedCommentForm'&gt;
+        &lt;b:include data='post' name='threaded_comment_js'/&gt;
+      &lt;/b:if&gt;
+      &lt;div id='comment-holder'&gt;
+         &lt;data:post.commentHtml/&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;p class='comment-footer'&gt;
+      &lt;b:if cond='data:post.allowNewComments'&gt;
+        &lt;b:include data='post' name='threaded-comment-form'/&gt;
+      &lt;b:else/&gt;
+        &lt;data:post.noNewCommentsText/&gt;
+      &lt;/b:if&gt;
+    &lt;/p&gt;
+
+    &lt;b:if cond='data:showCmtPopup'&gt;
+      &lt;div id='comment-popup'&gt;
+        &lt;iframe allowtransparency='true' frameborder='0' id='comment-actions' name='comment-actions' scrolling='no'&gt;
+        &lt;/iframe&gt;
+      &lt;/div&gt;
+    &lt;/b:if&gt;
+
+    &lt;div id='backlinks-container'&gt;
+    &lt;div expr:id='data:widget.instanceId + &amp;quot;_backlinks-container&amp;quot;'&gt;
+       &lt;b:if cond='data:post.showBacklinks'&gt;
+         &lt;b:include data='post' name='backlinks'/&gt;
+       &lt;/b:if&gt;
+    &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/b:includable&gt;
+      &lt;/b:widget&gt;
+    &lt;/b:section&gt;
+
+        
+&lt;/div&gt;&lt;!-- #content --&gt;
+&lt;/div&gt;&lt;!-- #primary .site-content --&gt;
+
+&lt;div class='widget-area' id='secondary' role='complementary'&gt;
+    
+&lt;div class='searchbox'&gt;
+      
+&lt;ul class='social'&gt;
+  &lt;li&gt; &lt;a href='http://www.facebook.com/YOUR_USERNAME'&gt;&lt;img src='http://3.bp.blogspot.com/-1kP35gEVFHg/UPcd2idleXI/AAAAAAAAEDE/ZckL7Kkcv3g/s000/facebook.png'/&gt;&lt;/a&gt; &lt;/li&gt;
+  &lt;li&gt; &lt;a href='https://plus.google.com/profileid'&gt;&lt;img src='http://4.bp.blogspot.com/-ciXt34KyhGI/UPcd21kR8NI/AAAAAAAAEDM/XOHNIJWkklI/s000/google.png'/&gt;&lt;/a&gt; &lt;/li&gt;
+  &lt;li&gt; &lt;a href=' https://twitter.com/twitter'&gt;&lt;img src='http://3.bp.blogspot.com/-f8l3l8NlHP8/UPcd3CJtpZI/AAAAAAAAEDU/ze8gnbUNKUA/s000/twitter.png'/&gt;&lt;/a&gt; &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;form expr:action='data:blog.homepageUrl + &amp;quot;search/&amp;quot;' id='searchform' method='get'&gt;   
+&lt;label class='assistive-text' for='s'&gt;Search&lt;/label&gt;
+&lt;input class='field' id='s' name='q' placeholder='Site Search' type='text'/&gt;
+&lt;input class='submit' id='searchsubmit' type='submit' value='Search'/&gt;
+&lt;/form&gt;
+ 
+&lt;/div&gt;
+      
+&lt;div id='sidebar'&gt;
+
+        &lt;b:section class='sidebar' id='sidebartop' preferred='yes'&gt;
+          &lt;b:widget id='PageList8' locked='false' title='Pages - Menu' type='PageList'&gt;
+            &lt;b:includable id='main'&gt;
+              &lt;b:if cond='data:title'&gt;&lt;!--&lt;h2&gt;&lt;data:title/&gt;&lt;/h2&gt;--&gt;&lt;/b:if&gt;
+              &lt;div class='widget-content'&gt;
+                &lt;ul class='sfmenu' id='web2feel'&gt;
+                  &lt;b:loop values='data:links' var='link'&gt;
+                    &lt;b:if cond='data:link.isCurrentPage'&gt;
+                      &lt;li id='currentpage'&gt;&lt;h2&gt;&lt;a expr:href='data:link.href' style='font-weight:900; color:#aaaaaa;'&gt;&lt;data:link.title/&gt;&lt;/a&gt;&lt;/h2&gt;&lt;/li&gt;
+                    &lt;b:else/&gt;
+                      &lt;li&gt;&lt;h2&gt;&lt;a expr:href='data:link.href' style='font-weight:900; color:white;'&gt;&lt;data:link.title/&gt;&lt;/a&gt;&lt;/h2&gt;&lt;/li&gt;
+                    &lt;/b:if&gt;
+                  &lt;/b:loop&gt;
+                &lt;/ul&gt;
+                &lt;b:include name='quickedit'/&gt;
+              &lt;/div&gt;
+            &lt;/b:includable&gt;
+          &lt;/b:widget&gt;
+        &lt;/b:section&gt;
+
+&lt;/div&gt;  
+&lt;/div&gt;&lt;!-- #secondary .widget-area --&gt;
+&lt;div class='clear'/&gt;
+  &lt;/div&gt;&lt;!-- #main --&gt;
+
+&lt;footer class='site-footer' id='colophon' role='contentinfo'&gt;
+
+&lt;div class='site-info'&gt;
+Copyright &amp;amp;copy; &lt;script type='text/javascript'&gt;var creditsyear = new Date();document.write(creditsyear.getFullYear());&lt;/script&gt; &lt;a expr:href='data:blog.homepageUrl'&gt;&lt;data:blog.title/&gt;&lt;/a&gt; | Powered by &lt;a href='http://www.blogger.com/'&gt;Blogger&lt;/a&gt;
+&lt;/div&gt;&lt;!-- .site-info --&gt;
+&lt;/footer&gt;&lt;!-- .site-footer .site-footer --&gt;
+&lt;/div&gt;&lt;!-- #page .hfeed .site --&gt;
+
+&lt;div id='topstripes'/&gt;
+&lt;/body&gt;
+&lt;/html&gt;</content><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/8707466986395456102/template/default'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/8707466986395456102/template/default'/><link rel='alternate' type='text/html' href='http://en-l2bot.blogspot.com/'/><author><name>Ilya Shpigor</name><uri>http://www.blogger.com/profile/11912242599568868113</uri><email>noreply@blogger.com</email><gd:image rel='http://schemas.google.com/g/2005#thumbnail' width='16' height='16' src='http://img2.blogblog.com/img/b16-rounded.gif'/></author></entry><entry><id>tag:blogger.com,1999:blog-8707466986395456102.settings.BLOG_PUBLISHING_MODE</id><published>2013-04-23T07:41:03.429-07:00</published><updated>2013-07-28T22:53:52.125-07:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>The type of publishing done for this blog.</title><content type='text'>PUBLISH_MODE_BLOGSPOT</content><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/8707466986395456102/settings/BLOG_PUBLISHING_MODE'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/8707466986395456102/settings/BLOG_PUBLISHING_MODE'/><author><name>Ilya Shpigor</name><uri>http://www.blogger.com/profile/11912242599568868113</uri><email>noreply@blogger.com</email><gd:image rel='http://schemas.google.com/g/2005#thumbnail' width='16' height='16' src='http://img2.blogblog.com/img/b16-rounded.gif'/></author></entry><entry><id>tag:blogger.com,1999:blog-8707466986395456102.settings.BLOG_ADMIN_PERMISSION</id><published>2013-04-23T07:41:03.429-07:00</published><updated>2013-07-28T22:53:52.125-07:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>The list of administrators' emails for the blog.</title><content type='text'>petrsum@gmail.com</content><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/8707466986395456102/settings/BLOG_ADMIN_PERMISSION'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/8707466986395456102/settings/BLOG_ADMIN_PERMISSION'/><author><name>Ilya Shpigor</name><uri>http://www.blogger.com/profile/11912242599568868113</uri><email>noreply@blogger.com</email><gd:image rel='http://schemas.google.com/g/2005#thumbnail' width='16' height='16' src='http://img2.blogblog.com/img/b16-rounded.gif'/></author></entry><entry><id>tag:blogger.com,1999:blog-8707466986395456102.settings.BLOG_ADULT_CONTENT</id><published>2013-04-23T07:41:03.429-07:00</published><updated>2013-07-28T22:53:52.125-07:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>Whether this blog contains adult content</title><content type='text'>false</content><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/8707466986395456102/settings/BLOG_ADULT_CONTENT'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/8707466986395456102/settings/BLOG_ADULT_CONTENT'/><author><name>Ilya Shpigor</name><uri>http://www.blogger.com/profile/11912242599568868113</uri><email>noreply@blogger.com</email><gd:image rel='http://schemas.google.com/g/2005#thumbnail' width='16' height='16' src='http://img2.blogblog.com/img/b16-rounded.gif'/></author></entry><entry><id>tag:blogger.com,1999:blog-8707466986395456102.settings.BLOG_ALTERNATE_JSRENDER_ALLOWED</id><published>2013-04-23T07:41:03.429-07:00</published><updated>2013-07-28T22:53:52.125-07:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>Whether alternate JS renderings are allowed</title><content type='text'>true</content><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/8707466986395456102/settings/BLOG_ALTERNATE_JSRENDER_ALLOWED'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/8707466986395456102/settings/BLOG_ALTERNATE_JSRENDER_ALLOWED'/><author><name>Ilya Shpigor</name><uri>http://www.blogger.com/profile/11912242599568868113</uri><email>noreply@blogger.com</email><gd:image rel='http://schemas.google.com/g/2005#thumbnail' width='16' height='16' src='http://img2.blogblog.com/img/b16-rounded.gif'/></author></entry><entry><id>tag:blogger.com,1999:blog-8707466986395456102.settings.BLOG_ANALYTICS_ACCOUNT_NUMBER</id><published>2013-04-23T07:41:03.429-07:00</published><updated>2013-07-28T22:53:52.125-07:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>Blog's Google Analytics account number</title><content type='text'></content><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/8707466986395456102/settings/BLOG_ANALYTICS_ACCOUNT_NUMBER'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/8707466986395456102/settings/BLOG_ANALYTICS_ACCOUNT_NUMBER'/><author><name>Ilya Shpigor</name><uri>http://www.blogger.com/profile/11912242599568868113</uri><email>noreply@blogger.com</email><gd:image rel='http://schemas.google.com/g/2005#thumbnail' width='16' height='16' src='http://img2.blogblog.com/img/b16-rounded.gif'/></author></entry><entry><id>tag:blogger.com,1999:blog-8707466986395456102.settings.BLOG_ARCHIVE_DATE_FORMAT</id><published>2013-04-23T07:41:03.429-07:00</published><updated>2013-07-28T22:53:52.125-07:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>The number of the archive index date format</title><content type='text'>9</content><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/8707466986395456102/settings/BLOG_ARCHIVE_DATE_FORMAT'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/8707466986395456102/settings/BLOG_ARCHIVE_DATE_FORMAT'/><author><name>Ilya Shpigor</name><uri>http://www.blogger.com/profile/11912242599568868113</uri><email>noreply@blogger.com</email><gd:image rel='http://schemas.google.com/g/2005#thumbnail' width='16' height='16' src='http://img2.blogblog.com/img/b16-rounded.gif'/></author></entry><entry><id>tag:blogger.com,1999:blog-8707466986395456102.settings.BLOG_ARCHIVE_FREQUENCY</id><published>2013-04-23T07:41:03.429-07:00</published><updated>2013-07-28T22:53:52.125-07:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>How frequently this blog should be archived</title><content type='text'>MONTHLY</content><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/8707466986395456102/settings/BLOG_ARCHIVE_FREQUENCY'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/8707466986395456102/settings/BLOG_ARCHIVE_FREQUENCY'/><author><name>Ilya Shpigor</name><uri>http://www.blogger.com/profile/11912242599568868113</uri><email>noreply@blogger.com</email><gd:image rel='http://schemas.google.com/g/2005#thumbnail' width='16' height='16' src='http://img2.blogblog.com/img/b16-rounded.gif'/></author></entry><entry><id>tag:blogger.com,1999:blog-8707466986395456102.settings.BLOG_AUTHOR_PERMISSION</id><published>2013-04-23T07:41:03.429-07:00</published><updated>2013-07-28T22:53:52.125-07:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>The list of authors' emails who have permission to publish.</title><content type='text'></content><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/8707466986395456102/settings/BLOG_AUTHOR_PERMISSION'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/8707466986395456102/settings/BLOG_AUTHOR_PERMISSION'/><author><name>Ilya Shpigor</name><uri>http://www.blogger.com/profile/11912242599568868113</uri><email>noreply@blogger.com</email><gd:image rel='http://schemas.google.com/g/2005#thumbnail' width='16' height='16' src='http://img2.blogblog.com/img/b16-rounded.gif'/></author></entry><entry><id>tag:blogger.com,1999:blog-8707466986395456102.settings.BLOG_BACKLINKS_ALLOWED</id><published>2013-04-23T07:41:03.429-07:00</published><updated>2013-07-28T22:53:52.125-07:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>Whether to show comment backlinks on the blog</title><content type='text'>false</content><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/8707466986395456102/settings/BLOG_BACKLINKS_ALLOWED'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/8707466986395456102/settings/BLOG_BACKLINKS_ALLOWED'/><author><name>Ilya Shpigor</name><uri>http://www.blogger.com/profile/11912242599568868113</uri><email>noreply@blogger.com</email><gd:image rel='http://schemas.google.com/g/2005#thumbnail' width='16' height='16' src='http://img2.blogblog.com/img/b16-rounded.gif'/></author></entry><entry><id>tag:blogger.com,1999:blog-8707466986395456102.settings.BLOG_BY_POST_ARCHIVING</id><published>2013-04-23T07:41:03.429-07:00</published><updated>2013-07-28T22:53:52.125-07:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>Whether to provide an archive page for each post</title><content type='text'>true</content><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/8707466986395456102/settings/BLOG_BY_POST_ARCHIVING'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/8707466986395456102/settings/BLOG_BY_POST_ARCHIVING'/><author><name>Ilya Shpigor</name><uri>http://www.blogger.com/profile/11912242599568868113</uri><email>noreply@blogger.com</email><gd:image rel='http://schemas.google.com/g/2005#thumbnail' width='16' height='16' src='http://img2.blogblog.com/img/b16-rounded.gif'/></author></entry><entry><id>tag:blogger.com,1999:blog-8707466986395456102.settings.BLOG_COMMENT_ACCESS</id><published>2013-04-23T07:41:03.429-07:00</published><updated>2013-07-28T22:53:52.125-07:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>Who can comment</title><content type='text'>REGISTERED</content><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/8707466986395456102/settings/BLOG_COMMENT_ACCESS'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/8707466986395456102/settings/BLOG_COMMENT_ACCESS'/><author><name>Ilya Shpigor</name><uri>http://www.blogger.com/profile/11912242599568868113</uri><email>noreply@blogger.com</email><gd:image rel='http://schemas.google.com/g/2005#thumbnail' width='16' height='16' src='http://img2.blogblog.com/img/b16-rounded.gif'/></author></entry><entry><id>tag:blogger.com,1999:blog-8707466986395456102.settings.BLOG_COMMENT_CAPTCHA</id><published>2013-04-23T07:41:03.429-07:00</published><updated>2013-07-28T22:53:52.125-07:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>Whether to require commenters to complete a Captcha</title><content type='text'>true</content><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/8707466986395456102/settings/BLOG_COMMENT_CAPTCHA'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/8707466986395456102/settings/BLOG_COMMENT_CAPTCHA'/><author><name>Ilya Shpigor</name><uri>http://www.blogger.com/profile/11912242599568868113</uri><email>noreply@blogger.com</email><gd:image rel='http://schemas.google.com/g/2005#thumbnail' width='16' height='16' src='http://img2.blogblog.com/img/b16-rounded.gif'/></author></entry><entry><id>tag:blogger.com,1999:blog-8707466986395456102.settings.BLOG_COMMENT_EMAIL</id><published>2013-04-23T07:41:03.429-07:00</published><updated>2013-07-28T22:53:52.125-07:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>List of e-mail addresses to send notifications of new comments to</title><content type='text'>petrsum@gmail.com</content><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/8707466986395456102/settings/BLOG_COMMENT_EMAIL'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/8707466986395456102/settings/BLOG_COMMENT_EMAIL'/><author><name>Ilya Shpigor</name><uri>http://www.blogger.com/profile/11912242599568868113</uri><email>noreply@blogger.com</email><gd:image rel='http://schemas.google.com/g/2005#thumbnail' width='16' height='16' src='http://img2.blogblog.com/img/b16-rounded.gif'/></author></entry><entry><id>tag:blogger.com,1999:blog-8707466986395456102.settings.BLOG_COMMENT_FEED</id><published>2013-04-23T07:41:03.429-07:00</published><updated>2013-07-28T22:53:52.125-07:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>The type of feed to provide for blog comments</title><content type='text'>FULL</content><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/8707466986395456102/settings/BLOG_COMMENT_FEED'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/8707466986395456102/settings/BLOG_COMMENT_FEED'/><author><name>Ilya Shpigor</name><uri>http://www.blogger.com/profile/11912242599568868113</uri><email>noreply@blogger.com</email><gd:image rel='http://schemas.google.com/g/2005#thumbnail' width='16' height='16' src='http://img2.blogblog.com/img/b16-rounded.gif'/></author></entry><entry><id>tag:blogger.com,1999:blog-8707466986395456102.settings.BLOG_COMMENT_FORM_LOCATION</id><published>2013-04-23T07:41:03.429-07:00</published><updated>2013-07-28T22:53:52.125-07:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>Blog comment form location</title><content type='text'>EMBEDDED_IFRAME</content><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/8707466986395456102/settings/BLOG_COMMENT_FORM_LOCATION'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/8707466986395456102/settings/BLOG_COMMENT_FORM_LOCATION'/><author><name>Ilya Shpigor</name><uri>http://www.blogger.com/profile/11912242599568868113</uri><email>noreply@blogger.com</email><gd:image rel='http://schemas.google.com/g/2005#thumbnail' width='16' height='16' src='http://img2.blogblog.com/img/b16-rounded.gif'/></author></entry><entry><id>tag:blogger.com,1999:blog-8707466986395456102.settings.BLOG_COMMENT_MESSAGE</id><published>2013-04-23T07:41:03.429-07:00</published><updated>2013-07-28T22:53:52.125-07:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>Blog comment message</title><content type='text'></content><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/8707466986395456102/settings/BLOG_COMMENT_MESSAGE'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/8707466986395456102/settings/BLOG_COMMENT_MESSAGE'/><author><name>Ilya Shpigor</name><uri>http://www.blogger.com/profile/11912242599568868113</uri><email>noreply@blogger.com</email><gd:image rel='http://schemas.google.com/g/2005#thumbnail' width='16' height='16' src='http://img2.blogblog.com/img/b16-rounded.gif'/></author></entry><entry><id>tag:blogger.com,1999:blog-8707466986395456102.settings.BLOG_COMMENT_MODERATION</id><published>2013-04-23T07:41:03.429-07:00</published><updated>2013-07-28T22:53:52.125-07:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>Whether to enable comment moderation</title><content type='text'>DISABLED</content><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/8707466986395456102/settings/BLOG_COMMENT_MODERATION'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/8707466986395456102/settings/BLOG_COMMENT_MODERATION'/><author><name>Ilya Shpigor</name><uri>http://www.blogger.com/profile/11912242599568868113</uri><email>noreply@blogger.com</email><gd:image rel='http://schemas.google.com/g/2005#thumbnail' width='16' height='16' src='http://img2.blogblog.com/img/b16-rounded.gif'/></author></entry><entry><id>tag:blogger.com,1999:blog-8707466986395456102.settings.BLOG_COMMENT_MODERATION_DELAY</id><published>2013-04-23T07:41:03.429-07:00</published><updated>2013-07-28T22:53:52.125-07:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>Number of days after which new comments are subject to moderation</title><content type='text'>14</content><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/8707466986395456102/settings/BLOG_COMMENT_MODERATION_DELAY'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/8707466986395456102/settings/BLOG_COMMENT_MODERATION_DELAY'/><author><name>Ilya Shpigor</name><uri>http://www.blogger.com/profile/11912242599568868113</uri><email>noreply@blogger.com</email><gd:image rel='http://schemas.google.com/g/2005#thumbnail' width='16' height='16' src='http://img2.blogblog.com/img/b16-rounded.gif'/></author></entry><entry><id>tag:blogger.com,1999:blog-8707466986395456102.settings.BLOG_COMMENT_MODERATION_EMAIL</id><published>2013-04-23T07:41:03.429-07:00</published><updated>2013-07-28T22:53:52.125-07:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>Email address to send notifications of new comments needing moderation to</title><content type='text'></content><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/8707466986395456102/settings/BLOG_COMMENT_MODERATION_EMAIL'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/8707466986395456102/settings/BLOG_COMMENT_MODERATION_EMAIL'/><author><name>Ilya Shpigor</name><uri>http://www.blogger.com/profile/11912242599568868113</uri><email>noreply@blogger.com</email><gd:image rel='http://schemas.google.com/g/2005#thumbnail' width='16' height='16' src='http://img2.blogblog.com/img/b16-rounded.gif'/></author></entry><entry><id>tag:blogger.com,1999:blog-8707466986395456102.settings.BLOG_COMMENT_PROFILE_IMAGES</id><published>2013-04-23T07:41:03.429-07:00</published><updated>2013-07-28T22:53:52.125-07:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>Whether to show profile images in comments</title><content type='text'>true</content><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/8707466986395456102/settings/BLOG_COMMENT_PROFILE_IMAGES'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/8707466986395456102/settings/BLOG_COMMENT_PROFILE_IMAGES'/><author><name>Ilya Shpigor</name><uri>http://www.blogger.com/profile/11912242599568868113</uri><email>noreply@blogger.com</email><gd:image rel='http://schemas.google.com/g/2005#thumbnail' width='16' height='16' src='http://img2.blogblog.com/img/b16-rounded.gif'/></author></entry><entry><id>tag:blogger.com,1999:blog-8707466986395456102.settings.BLOG_COMMENTS_ALLOWED</id><published>2013-04-23T07:41:03.429-07:00</published><updated>2013-07-28T22:53:52.125-07:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>Whether to show comments</title><content type='text'>false</content><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/8707466986395456102/settings/BLOG_COMMENTS_ALLOWED'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/8707466986395456102/settings/BLOG_COMMENTS_ALLOWED'/><author><name>Ilya Shpigor</name><uri>http://www.blogger.com/profile/11912242599568868113</uri><email>noreply@blogger.com</email><gd:image rel='http://schemas.google.com/g/2005#thumbnail' width='16' height='16' src='http://img2.blogblog.com/img/b16-rounded.gif'/></author></entry><entry><id>tag:blogger.com,1999:blog-8707466986395456102.settings.BLOG_COMMENTS_TIME_STAMP_FORMAT</id><published>2013-04-23T07:41:03.429-07:00</published><updated>2013-07-28T22:53:52.125-07:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>Comment time stamp format number</title><content type='text'>29</content><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/8707466986395456102/settings/BLOG_COMMENTS_TIME_STAMP_FORMAT'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/8707466986395456102/settings/BLOG_COMMENTS_TIME_STAMP_FORMAT'/><author><name>Ilya Shpigor</name><uri>http://www.blogger.com/profile/11912242599568868113</uri><email>noreply@blogger.com</email><gd:image rel='http://schemas.google.com/g/2005#thumbnail' width='16' height='16' src='http://img2.blogblog.com/img/b16-rounded.gif'/></author></entry><entry><id>tag:blogger.com,1999:blog-8707466986395456102.settings.BLOG_CONVERT_LINE_BREAKS</id><published>2013-04-23T07:41:03.429-07:00</published><updated>2013-07-28T22:53:52.125-07:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>Whether to convert line breaks into &lt;br /&gt; tags in post editor</title><content type='text'>true</content><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/8707466986395456102/settings/BLOG_CONVERT_LINE_BREAKS'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/8707466986395456102/settings/BLOG_CONVERT_LINE_BREAKS'/><author><name>Ilya Shpigor</name><uri>http://www.blogger.com/profile/11912242599568868113</uri><email>noreply@blogger.com</email><gd:image rel='http://schemas.google.com/g/2005#thumbnail' width='16' height='16' src='http://img2.blogblog.com/img/b16-rounded.gif'/></author></entry><entry><id>tag:blogger.com,1999:blog-8707466986395456102.settings.BLOG_CUSTOM_PAGE_NOT_FOUND</id><published>2013-04-23T07:41:03.429-07:00</published><updated>2013-07-28T22:53:52.125-07:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>The content served when the requested post or page is not found.</title><content type='text'></content><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/8707466986395456102/settings/BLOG_CUSTOM_PAGE_NOT_FOUND'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/8707466986395456102/settings/BLOG_CUSTOM_PAGE_NOT_FOUND'/><author><name>Ilya Shpigor</name><uri>http://www.blogger.com/profile/11912242599568868113</uri><email>noreply@blogger.com</email><gd:image rel='http://schemas.google.com/g/2005#thumbnail' width='16' height='16' src='http://img2.blogblog.com/img/b16-rounded.gif'/></author></entry><entry><id>tag:blogger.com,1999:blog-8707466986395456102.settings.BLOG_CUSTOM_ROBOTS_TXT</id><published>2013-04-23T07:41:03.429-07:00</published><updated>2013-07-28T22:53:52.125-07:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>The custom robots.txt content of the blog served to search engines.</title><content type='text'></content><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/8707466986395456102/settings/BLOG_CUSTOM_ROBOTS_TXT'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/8707466986395456102/settings/BLOG_CUSTOM_ROBOTS_TXT'/><author><name>Ilya Shpigor</name><uri>http://www.blogger.com/profile/11912242599568868113</uri><email>noreply@blogger.com</email><gd:image rel='http://schemas.google.com/g/2005#thumbnail' width='16' height='16' src='http://img2.blogblog.com/img/b16-rounded.gif'/></author></entry><entry><id>tag:blogger.com,1999:blog-8707466986395456102.settings.BLOG_CUSTOM_ROBOTS_TXT_ENABLED</id><published>2013-04-23T07:41:03.429-07:00</published><updated>2013-07-28T22:53:52.125-07:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>Whether this blog serves custom robots.txt content to search engines.</title><content type='text'>false</content><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/8707466986395456102/settings/BLOG_CUSTOM_ROBOTS_TXT_ENABLED'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/8707466986395456102/settings/BLOG_CUSTOM_ROBOTS_TXT_ENABLED'/><author><name>Ilya Shpigor</name><uri>http://www.blogger.com/profile/11912242599568868113</uri><email>noreply@blogger.com</email><gd:image rel='http://schemas.google.com/g/2005#thumbnail' width='16' height='16' src='http://img2.blogblog.com/img/b16-rounded.gif'/></author></entry><entry><id>tag:blogger.com,1999:blog-8707466986395456102.settings.BLOG_DATE_FORMAT</id><published>2013-04-23T07:41:03.429-07:00</published><updated>2013-07-28T22:53:52.125-07:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>The number of the date header format</title><content type='text'>26</content><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/8707466986395456102/settings/BLOG_DATE_FORMAT'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/8707466986395456102/settings/BLOG_DATE_FORMAT'/><author><name>Ilya Shpigor</name><uri>http://www.blogger.com/profile/11912242599568868113</uri><email>noreply@blogger.com</email><gd:image rel='http://schemas.google.com/g/2005#thumbnail' width='16' height='16' src='http://img2.blogblog.com/img/b16-rounded.gif'/></author></entry><entry><id>tag:blogger.com,1999:blog-8707466986395456102.settings.BLOG_DEFAULT_BACKLINKS_MODE</id><published>2013-04-23T07:41:03.429-07:00</published><updated>2013-07-28T22:53:52.125-07:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>Default backlinks mode for posts</title><content type='text'>DEFAULT_HAVE_BACKLINKS</content><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/8707466986395456102/settings/BLOG_DEFAULT_BACKLINKS_MODE'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/8707466986395456102/settings/BLOG_DEFAULT_BACKLINKS_MODE'/><author><name>Ilya Shpigor</name><uri>http://www.blogger.com/profile/11912242599568868113</uri><email>noreply@blogger.com</email><gd:image rel='http://schemas.google.com/g/2005#thumbnail' width='16' height='16' src='http://img2.blogblog.com/img/b16-rounded.gif'/></author></entry><entry><id>tag:blogger.com,1999:blog-8707466986395456102.settings.BLOG_DEFAULT_COMMENTS_MODE</id><published>2013-04-23T07:41:03.429-07:00</published><updated>2013-07-28T22:53:52.125-07:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>Default comment mode for posts</title><content type='text'>DEFAULT_HAVE_COMMENTS</content><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/8707466986395456102/settings/BLOG_DEFAULT_COMMENTS_MODE'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/8707466986395456102/settings/BLOG_DEFAULT_COMMENTS_MODE'/><author><name>Ilya Shpigor</name><uri>http://www.blogger.com/profile/11912242599568868113</uri><email>noreply@blogger.com</email><gd:image rel='http://schemas.google.com/g/2005#thumbnail' width='16' height='16' src='http://img2.blogblog.com/img/b16-rounded.gif'/></author></entry><entry><id>tag:blogger.com,1999:blog-8707466986395456102.settings.BLOG_DESCRIPTION</id><published>2013-04-23T07:41:03.429-07:00</published><updated>2013-07-28T22:53:52.125-07:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>A description of the blog</title><content type='text'></content><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/8707466986395456102/settings/BLOG_DESCRIPTION'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/8707466986395456102/settings/BLOG_DESCRIPTION'/><author><name>Ilya Shpigor</name><uri>http://www.blogger.com/profile/11912242599568868113</uri><email>noreply@blogger.com</email><gd:image rel='http://schemas.google.com/g/2005#thumbnail' width='16' height='16' src='http://img2.blogblog.com/img/b16-rounded.gif'/></author></entry><entry><id>tag:blogger.com,1999:blog-8707466986395456102.settings.BLOG_EMAIL_POST_LINKS</id><published>2013-04-23T07:41:03.429-07:00</published><updated>2013-07-28T22:53:52.125-07:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>Whether to show a link for users to e-mail posts</title><content type='text'>false</content><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/8707466986395456102/settings/BLOG_EMAIL_POST_LINKS'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/8707466986395456102/settings/BLOG_EMAIL_POST_LINKS'/><author><name>Ilya Shpigor</name><uri>http://www.blogger.com/profile/11912242599568868113</uri><email>noreply@blogger.com</email><gd:image rel='http://schemas.google.com/g/2005#thumbnail' width='16' height='16' src='http://img2.blogblog.com/img/b16-rounded.gif'/></author></entry><entry><id>tag:blogger.com,1999:blog-8707466986395456102.settings.BLOG_FEED_REDIRECT_URL</id><published>2013-04-23T07:41:03.429-07:00</published><updated>2013-07-28T22:53:52.125-07:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>URL to redirect post feed requests to</title><content type='text'></content><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/8707466986395456102/settings/BLOG_FEED_REDIRECT_URL'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/8707466986395456102/settings/BLOG_FEED_REDIRECT_URL'/><author><name>Ilya Shpigor</name><uri>http://www.blogger.com/profile/11912242599568868113</uri><email>noreply@blogger.com</email><gd:image rel='http://schemas.google.com/g/2005#thumbnail' width='16' height='16' src='http://img2.blogblog.com/img/b16-rounded.gif'/></author></entry><entry><id>tag:blogger.com,1999:blog-8707466986395456102.settings.BLOG_FLOAT_ALIGNMENT</id><published>2013-04-23T07:41:03.429-07:00</published><updated>2013-07-28T22:53:52.125-07:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>Whether float alignment is enabled for the blog</title><content type='text'>true</content><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/8707466986395456102/settings/BLOG_FLOAT_ALIGNMENT'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/8707466986395456102/settings/BLOG_FLOAT_ALIGNMENT'/><author><name>Ilya Shpigor</name><uri>http://www.blogger.com/profile/11912242599568868113</uri><email>noreply@blogger.com</email><gd:image rel='http://schemas.google.com/g/2005#thumbnail' width='16' height='16' src='http://img2.blogblog.com/img/b16-rounded.gif'/></author></entry><entry><id>tag:blogger.com,1999:blog-8707466986395456102.settings.BLOG_LOCALE</id><published>2013-04-23T07:41:03.429-07:00</published><updated>2013-07-28T22:53:52.125-07:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>Language for this blog</title><content type='text'>en</content><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/8707466986395456102/settings/BLOG_LOCALE'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/8707466986395456102/settings/BLOG_LOCALE'/><author><name>Ilya Shpigor</name><uri>http://www.blogger.com/profile/11912242599568868113</uri><email>noreply@blogger.com</email><gd:image rel='http://schemas.google.com/g/2005#thumbnail' width='16' height='16' src='http://img2.blogblog.com/img/b16-rounded.gif'/></author></entry><entry><id>tag:blogger.com,1999:blog-8707466986395456102.settings.BLOG_MAX_NUM</id><published>2013-04-23T07:41:03.429-07:00</published><updated>2013-07-28T22:53:52.125-07:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>Maximum number of things to show on the main page"</title><content type='text'>30</content><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/8707466986395456102/settings/BLOG_MAX_NUM'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/8707466986395456102/settings/BLOG_MAX_NUM'/><author><name>Ilya Shpigor</name><uri>http://www.blogger.com/profile/11912242599568868113</uri><email>noreply@blogger.com</email><gd:image rel='http://schemas.google.com/g/2005#thumbnail' width='16' height='16' src='http://img2.blogblog.com/img/b16-rounded.gif'/></author></entry><entry><id>tag:blogger.com,1999:blog-8707466986395456102.settings.BLOG_MAX_UNIT</id><published>2013-04-23T07:41:03.429-07:00</published><updated>2013-07-28T22:53:52.125-07:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>Unit of things to show on the main page</title><content type='text'>POSTS</content><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/8707466986395456102/settings/BLOG_MAX_UNIT'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/8707466986395456102/settings/BLOG_MAX_UNIT'/><author><name>Ilya Shpigor</name><uri>http://www.blogger.com/profile/11912242599568868113</uri><email>noreply@blogger.com</email><gd:image rel='http://schemas.google.com/g/2005#thumbnail' width='16' height='16' src='http://img2.blogblog.com/img/b16-rounded.gif'/></author></entry><entry><id>tag:blogger.com,1999:blog-8707466986395456102.settings.BLOG_META_DESCRIPTION</id><published>2013-04-23T07:41:03.429-07:00</published><updated>2013-07-28T22:53:52.125-07:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>The meta description of the blog served to search engines.</title><content type='text'></content><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/8707466986395456102/settings/BLOG_META_DESCRIPTION'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/8707466986395456102/settings/BLOG_META_DESCRIPTION'/><author><name>Ilya Shpigor</name><uri>http://www.blogger.com/profile/11912242599568868113</uri><email>noreply@blogger.com</email><gd:image rel='http://schemas.google.com/g/2005#thumbnail' width='16' height='16' src='http://img2.blogblog.com/img/b16-rounded.gif'/></author></entry><entry><id>tag:blogger.com,1999:blog-8707466986395456102.settings.BLOG_META_DESCRIPTION_ENABLED</id><published>2013-04-23T07:41:03.429-07:00</published><updated>2013-07-28T22:53:52.125-07:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>Whether this blog is served with meta descriptions.</title><content type='text'>false</content><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/8707466986395456102/settings/BLOG_META_DESCRIPTION_ENABLED'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/8707466986395456102/settings/BLOG_META_DESCRIPTION_ENABLED'/><author><name>Ilya Shpigor</name><uri>http://www.blogger.com/profile/11912242599568868113</uri><email>noreply@blogger.com</email><gd:image rel='http://schemas.google.com/g/2005#thumbnail' width='16' height='16' src='http://img2.blogblog.com/img/b16-rounded.gif'/></author></entry><entry><id>tag:blogger.com,1999:blog-8707466986395456102.settings.BLOG_NAME</id><published>2013-04-23T07:41:03.429-07:00</published><updated>2013-07-28T22:53:52.125-07:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>The name of the blog</title><content type='text'>Lineage 2 Bot</content><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/8707466986395456102/settings/BLOG_NAME'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/8707466986395456102/settings/BLOG_NAME'/><author><name>Ilya Shpigor</name><uri>http://www.blogger.com/profile/11912242599568868113</uri><email>noreply@blogger.com</email><gd:image rel='http://schemas.google.com/g/2005#thumbnail' width='16' height='16' src='http://img2.blogblog.com/img/b16-rounded.gif'/></author></entry><entry><id>tag:blogger.com,1999:blog-8707466986395456102.settings.BLOG_PER_POST_FEED</id><published>2013-04-23T07:41:03.429-07:00</published><updated>2013-07-28T22:53:52.125-07:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>The type of feed to provide for per-post comments</title><content type='text'>FULL</content><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/8707466986395456102/settings/BLOG_PER_POST_FEED'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/8707466986395456102/settings/BLOG_PER_POST_FEED'/><author><name>Ilya Shpigor</name><uri>http://www.blogger.com/profile/11912242599568868113</uri><email>noreply@blogger.com</email><gd:image rel='http://schemas.google.com/g/2005#thumbnail' width='16' height='16' src='http://img2.blogblog.com/img/b16-rounded.gif'/></author></entry><entry><id>tag:blogger.com,1999:blog-8707466986395456102.settings.BLOG_POST_FEED</id><published>2013-04-23T07:41:03.429-07:00</published><updated>2013-07-28T22:53:52.125-07:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>The type of feed to provide for blog posts</title><content type='text'>FULL</content><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/8707466986395456102/settings/BLOG_POST_FEED'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/8707466986395456102/settings/BLOG_POST_FEED'/><author><name>Ilya Shpigor</name><uri>http://www.blogger.com/profile/11912242599568868113</uri><email>noreply@blogger.com</email><gd:image rel='http://schemas.google.com/g/2005#thumbnail' width='16' height='16' src='http://img2.blogblog.com/img/b16-rounded.gif'/></author></entry><entry><id>tag:blogger.com,1999:blog-8707466986395456102.settings.BLOG_POST_FEED_FOOTER</id><published>2013-04-23T07:41:03.429-07:00</published><updated>2013-07-28T22:53:52.125-07:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>Footer to append to the end of each entry in the post feed</title><content type='text'></content><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/8707466986395456102/settings/BLOG_POST_FEED_FOOTER'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/8707466986395456102/settings/BLOG_POST_FEED_FOOTER'/><author><name>Ilya Shpigor</name><uri>http://www.blogger.com/profile/11912242599568868113</uri><email>noreply@blogger.com</email><gd:image rel='http://schemas.google.com/g/2005#thumbnail' width='16' height='16' src='http://img2.blogblog.com/img/b16-rounded.gif'/></author></entry><entry><id>tag:blogger.com,1999:blog-8707466986395456102.settings.BLOG_POST_TEMPLATE</id><published>2013-04-23T07:41:03.429-07:00</published><updated>2013-07-28T22:53:52.125-07:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>The template for blog posts</title><content type='text'></content><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/8707466986395456102/settings/BLOG_POST_TEMPLATE'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/8707466986395456102/settings/BLOG_POST_TEMPLATE'/><author><name>Ilya Shpigor</name><uri>http://www.blogger.com/profile/11912242599568868113</uri><email>noreply@blogger.com</email><gd:image rel='http://schemas.google.com/g/2005#thumbnail' width='16' height='16' src='http://img2.blogblog.com/img/b16-rounded.gif'/></author></entry><entry><id>tag:blogger.com,1999:blog-8707466986395456102.settings.BLOG_PROMOTED</id><published>2013-04-23T07:41:03.429-07:00</published><updated>2013-07-28T22:53:52.125-07:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>Whether this blog can be promoted on Blogger</title><content type='text'>true</content><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/8707466986395456102/settings/BLOG_PROMOTED'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/8707466986395456102/settings/BLOG_PROMOTED'/><author><name>Ilya Shpigor</name><uri>http://www.blogger.com/profile/11912242599568868113</uri><email>noreply@blogger.com</email><gd:image rel='http://schemas.google.com/g/2005#thumbnail' width='16' height='16' src='http://img2.blogblog.com/img/b16-rounded.gif'/></author></entry><entry><id>tag:blogger.com,1999:blog-8707466986395456102.settings.BLOG_QUICK_EDITING</id><published>2013-04-23T07:41:03.429-07:00</published><updated>2013-07-28T22:53:52.125-07:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>Whether Quick Editing is enabled</title><content type='text'>false</content><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/8707466986395456102/settings/BLOG_QUICK_EDITING'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/8707466986395456102/settings/BLOG_QUICK_EDITING'/><author><name>Ilya Shpigor</name><uri>http://www.blogger.com/profile/11912242599568868113</uri><email>noreply@blogger.com</email><gd:image rel='http://schemas.google.com/g/2005#thumbnail' width='16' height='16' src='http://img2.blogblog.com/img/b16-rounded.gif'/></author></entry><entry><id>tag:blogger.com,1999:blog-8707466986395456102.settings.BLOG_READ_ACCESS_MODE</id><published>2013-04-23T07:41:03.429-07:00</published><updated>2013-07-28T22:53:52.125-07:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>The access type for the readers of the blog.</title><content type='text'>PUBLIC</content><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/8707466986395456102/settings/BLOG_READ_ACCESS_MODE'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/8707466986395456102/settings/BLOG_READ_ACCESS_MODE'/><author><name>Ilya Shpigor</name><uri>http://www.blogger.com/profile/11912242599568868113</uri><email>noreply@blogger.com</email><gd:image rel='http://schemas.google.com/g/2005#thumbnail' width='16' height='16' src='http://img2.blogblog.com/img/b16-rounded.gif'/></author></entry><entry><id>tag:blogger.com,1999:blog-8707466986395456102.settings.BLOG_READER_PERMISSION</id><published>2013-04-23T07:41:03.429-07:00</published><updated>2013-07-28T22:53:52.125-07:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>The list of emails for users who have permission to read the blog.</title><content type='text'></content><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/8707466986395456102/settings/BLOG_READER_PERMISSION'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/8707466986395456102/settings/BLOG_READER_PERMISSION'/><author><name>Ilya Shpigor</name><uri>http://www.blogger.com/profile/11912242599568868113</uri><email>noreply@blogger.com</email><gd:image rel='http://schemas.google.com/g/2005#thumbnail' width='16' height='16' src='http://img2.blogblog.com/img/b16-rounded.gif'/></author></entry><entry><id>tag:blogger.com,1999:blog-8707466986395456102.settings.BLOG_SEARCHABLE</id><published>2013-04-23T07:41:03.429-07:00</published><updated>2013-07-28T22:53:52.125-07:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>Whether this blog should be indexed by search engines</title><content type='text'>true</content><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/8707466986395456102/settings/BLOG_SEARCHABLE'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/8707466986395456102/settings/BLOG_SEARCHABLE'/><author><name>Ilya Shpigor</name><uri>http://www.blogger.com/profile/11912242599568868113</uri><email>noreply@blogger.com</email><gd:image rel='http://schemas.google.com/g/2005#thumbnail' width='16' height='16' src='http://img2.blogblog.com/img/b16-rounded.gif'/></author></entry><entry><id>tag:blogger.com,1999:blog-8707466986395456102.settings.BLOG_SEND_EMAIL</id><published>2013-04-23T07:41:03.429-07:00</published><updated>2013-07-28T22:53:52.125-07:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>Comma separated list of emails to send new blog posts to</title><content type='text'></content><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/8707466986395456102/settings/BLOG_SEND_EMAIL'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/8707466986395456102/settings/BLOG_SEND_EMAIL'/><author><name>Ilya Shpigor</name><uri>http://www.blogger.com/profile/11912242599568868113</uri><email>noreply@blogger.com</email><gd:image rel='http://schemas.google.com/g/2005#thumbnail' width='16' height='16' src='http://img2.blogblog.com/img/b16-rounded.gif'/></author></entry><entry><id>tag:blogger.com,1999:blog-8707466986395456102.settings.BLOG_SHOW_TITLE</id><published>2013-04-23T07:41:03.429-07:00</published><updated>2013-07-28T22:53:52.125-07:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>Whether to show the title field</title><content type='text'>true</content><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/8707466986395456102/settings/BLOG_SHOW_TITLE'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/8707466986395456102/settings/BLOG_SHOW_TITLE'/><author><name>Ilya Shpigor</name><uri>http://www.blogger.com/profile/11912242599568868113</uri><email>noreply@blogger.com</email><gd:image rel='http://schemas.google.com/g/2005#thumbnail' width='16' height='16' src='http://img2.blogblog.com/img/b16-rounded.gif'/></author></entry><entry><id>tag:blogger.com,1999:blog-8707466986395456102.settings.BLOG_SHOW_URL</id><published>2013-04-23T07:41:03.429-07:00</published><updated>2013-07-28T22:53:52.125-07:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>Whether to show a related link box in the post composer</title><content type='text'>false</content><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/8707466986395456102/settings/BLOG_SHOW_URL'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/8707466986395456102/settings/BLOG_SHOW_URL'/><author><name>Ilya Shpigor</name><uri>http://www.blogger.com/profile/11912242599568868113</uri><email>noreply@blogger.com</email><gd:image rel='http://schemas.google.com/g/2005#thumbnail' width='16' height='16' src='http://img2.blogblog.com/img/b16-rounded.gif'/></author></entry><entry><id>tag:blogger.com,1999:blog-8707466986395456102.settings.BLOG_SUBDOMAIN</id><published>2013-04-23T07:41:03.429-07:00</published><updated>2013-07-28T22:53:52.125-07:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>The BlogSpot subdomain under which to publish your blog</title><content type='text'>en-l2bot</content><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/8707466986395456102/settings/BLOG_SUBDOMAIN'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/8707466986395456102/settings/BLOG_SUBDOMAIN'/><author><name>Ilya Shpigor</name><uri>http://www.blogger.com/profile/11912242599568868113</uri><email>noreply@blogger.com</email><gd:image rel='http://schemas.google.com/g/2005#thumbnail' width='16' height='16' src='http://img2.blogblog.com/img/b16-rounded.gif'/></author></entry><entry><id>tag:blogger.com,1999:blog-8707466986395456102.settings.BLOG_TIME_STAMP_FORMAT</id><published>2013-04-23T07:41:03.429-07:00</published><updated>2013-07-28T22:53:52.125-07:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>The number of the time stamp format</title><content type='text'>27</content><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/8707466986395456102/settings/BLOG_TIME_STAMP_FORMAT'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/8707466986395456102/settings/BLOG_TIME_STAMP_FORMAT'/><author><name>Ilya Shpigor</name><uri>http://www.blogger.com/profile/11912242599568868113</uri><email>noreply@blogger.com</email><gd:image rel='http://schemas.google.com/g/2005#thumbnail' width='16' height='16' src='http://img2.blogblog.com/img/b16-rounded.gif'/></author></entry><entry><id>tag:blogger.com,1999:blog-8707466986395456102.settings.BLOG_TIME_ZONE</id><published>2013-04-23T07:41:03.429-07:00</published><updated>2013-07-28T22:53:52.125-07:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>The time zone for this blog</title><content type='text'>America/Los_Angeles</content><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/8707466986395456102/settings/BLOG_TIME_ZONE'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/8707466986395456102/settings/BLOG_TIME_ZONE'/><author><name>Ilya Shpigor</name><uri>http://www.blogger.com/profile/11912242599568868113</uri><email>noreply@blogger.com</email><gd:image rel='http://schemas.google.com/g/2005#thumbnail' width='16' height='16' src='http://img2.blogblog.com/img/b16-rounded.gif'/></author></entry><entry><id>tag:blogger.com,1999:blog-8707466986395456102.settings.BLOG_USE_LIGHTBOX</id><published>2013-04-23T07:41:03.429-07:00</published><updated>2013-07-28T22:53:52.125-07:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>Whether to show images in the Lightbox when clicked</title><content type='text'>true</content><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/8707466986395456102/settings/BLOG_USE_LIGHTBOX'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/8707466986395456102/settings/BLOG_USE_LIGHTBOX'/><author><name>Ilya Shpigor</name><uri>http://www.blogger.com/profile/11912242599568868113</uri><email>noreply@blogger.com</email><gd:image rel='http://schemas.google.com/g/2005#thumbnail' width='16' height='16' src='http://img2.blogblog.com/img/b16-rounded.gif'/></author></entry><entry><id>tag:blogger.com,1999:blog-8707466986395456102.post-8585581760250195376</id><published>2013-07-14T00:36:00.002-07:00</published><updated>2013-07-14T00:36:48.479-07:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#post'/><title type='text'>Release 3.1</title><content type='html'>This is list of changes:&lt;br /&gt;1. chat bot: Fix bug with script launching&lt;br /&gt;2. chat bot: Implement mechanism for the private messages sending&lt;br /&gt;3. Add a configurator script for the chat bot&lt;br /&gt;4. farm bot: Fix bug with long delay after the attacking action&lt;br /&gt;&lt;br /&gt;More information is available in the commits history:&lt;br /&gt;&lt;a href="https://github.com/ellysh/l2bot/commits/3.1"&gt;https://github.com/ellysh/l2bot/commits/3.1&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;This is link to download L2Bot 3.1 version:&lt;br /&gt;&lt;a href="https://github.com/ellysh/l2bot/archive/3.1.zip"&gt;https://github.com/ellysh/l2bot/archive/3.1.zip&lt;/a&gt;</content><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/8707466986395456102/posts/default/8585581760250195376'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/8707466986395456102/posts/default/8585581760250195376'/><link rel='alternate' type='text/html' href='http://en-l2bot.blogspot.com/2013/07/release-31.html' title='Release 3.1'/><author><name>Ilya Shpigor</name><uri>http://www.blogger.com/profile/11912242599568868113</uri><email>noreply@blogger.com</email><gd:image rel='http://schemas.google.com/g/2005#thumbnail' width='16' height='16' src='http://img2.blogblog.com/img/b16-rounded.gif'/></author></entry><entry><id>tag:blogger.com,1999:blog-8707466986395456102.post-5179582086984211628</id><published>2013-07-07T01:32:00.000-07:00</published><updated>2013-07-07T01:32:03.541-07:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#post'/><title type='text'>Release 3.0</title><content type='html'>Release 3.0 is available.&lt;br /&gt;&lt;br /&gt;This is list of changes:&lt;br /&gt;1. Implement mechanism for searching targets by macros&lt;br /&gt;2. attack: Fix bug with delay of the attack's key pressing and multi window mode&lt;br /&gt;3. functions: Fix bug with the colors mismatch in the GetPixelCoordinateClient function&lt;br /&gt;&lt;br /&gt;More information is available in the commits history:&lt;br /&gt;&lt;a href="https://github.com/ellysh/l2bot/commits/3.0"&gt;https://github.com/ellysh/l2bot/commits/3.0&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;This is link to download L2Bot 3.0 version:&lt;br /&gt;&lt;a href="https://github.com/ellysh/l2bot/archive/3.0.zip"&gt;https://github.com/ellysh/l2bot/archive/3.0.zip&lt;/a&gt;</content><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/8707466986395456102/posts/default/5179582086984211628'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/8707466986395456102/posts/default/5179582086984211628'/><link rel='alternate' type='text/html' href='http://en-l2bot.blogspot.com/2013/07/release-30.html' title='Release 3.0'/><author><name>Ilya Shpigor</name><uri>http://www.blogger.com/profile/11912242599568868113</uri><email>noreply@blogger.com</email><gd:image rel='http://schemas.google.com/g/2005#thumbnail' width='16' height='16' src='http://img2.blogblog.com/img/b16-rounded.gif'/></author></entry><entry><id>tag:blogger.com,1999:blog-8707466986395456102.post-1323715944011642486</id><published>2013-06-22T23:06:00.001-07:00</published><updated>2013-06-22T23:06:59.443-07:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#post'/><title type='text'> Release 2.9</title><content type='html'>Release 2.9 is available.&lt;br /&gt;&lt;br /&gt;This is list of changes:&lt;br /&gt;1. farm-bot: Fix bug with switching to mobs for Interlude chronicles and below&lt;br /&gt;2. farm-bot: Check bot's stucking by the map window (Alt+M)&lt;br /&gt;3. fishing bot: Fix bug with switching to mob for Interlude chronicles and below&lt;br /&gt;4. healer bot: Follow the party members after the skills usage&lt;br /&gt;&lt;br /&gt;More information is available in the commits history:&lt;br /&gt;&lt;a href="https://github.com/ellysh/l2bot/commits/2.9"&gt;https://github.com/ellysh/l2bot/commits/2.9&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;This is link to download L2Bot 2.9 version:&lt;br /&gt;&lt;a href="https://github.com/ellysh/l2bot/archive/2.9.zip"&gt;https://github.com/ellysh/l2bot/archive/2.9.zip&lt;/a&gt;</content><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/8707466986395456102/posts/default/1323715944011642486'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/8707466986395456102/posts/default/1323715944011642486'/><link rel='alternate' type='text/html' href='http://en-l2bot.blogspot.com/2013/06/release-29.html' title=' Release 2.9'/><author><name>Ilya Shpigor</name><uri>http://www.blogger.com/profile/11912242599568868113</uri><email>noreply@blogger.com</email><gd:image rel='http://schemas.google.com/g/2005#thumbnail' width='16' height='16' src='http://img2.blogblog.com/img/b16-rounded.gif'/></author></entry><entry><id>tag:blogger.com,1999:blog-8707466986395456102.post-8293942976744118739</id><published>2013-06-15T23:26:00.001-07:00</published><updated>2013-06-15T23:26:17.069-07:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#post'/><title type='text'>Release 2.8</title><content type='html'>Release 2.8 is available.&lt;br /&gt;&lt;br /&gt;This is list of changes:&lt;br /&gt;1. Implement the healer bot&lt;br /&gt;&lt;br /&gt;More information is available in the commits history:&lt;br /&gt;&lt;a href="https://github.com/ellysh/l2bot/commits/2.8"&gt;https://github.com/ellysh/l2bot/commits/2.8&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;This is link to download L2Bot 2.8 version:&lt;br /&gt;&lt;a href="https://github.com/ellysh/l2bot/archive/2.8.zip"&gt;https://github.com/ellysh/l2bot/archive/2.8.zip&lt;/a&gt;</content><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/8707466986395456102/posts/default/8293942976744118739'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/8707466986395456102/posts/default/8293942976744118739'/><link rel='alternate' type='text/html' href='http://en-l2bot.blogspot.com/2013/06/release-28.html' title='Release 2.8'/><author><name>Ilya Shpigor</name><uri>http://www.blogger.com/profile/11912242599568868113</uri><email>noreply@blogger.com</email><gd:image rel='http://schemas.google.com/g/2005#thumbnail' width='16' height='16' src='http://img2.blogblog.com/img/b16-rounded.gif'/></author></entry><entry><id>tag:blogger.com,1999:blog-8707466986395456102.post-281773293692942680</id><published>2013-06-08T03:43:00.003-07:00</published><updated>2013-06-08T03:43:12.256-07:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#post'/><title type='text'>Release 2.7</title><content type='html'>Release 2.7 is available.&lt;br /&gt;&lt;br /&gt;This is list of changes:&lt;br /&gt;1. Implement the multi-timeout mechanism&lt;br /&gt;&lt;br /&gt;More information is available in the commits history:&lt;br /&gt;&lt;a href="https://github.com/ellysh/l2bot/commits/2.7"&gt;https://github.com/ellysh/l2bot/commits/2.7&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;This is link to download L2Bot 2.7 version:&lt;br /&gt;&lt;a href="https://github.com/ellysh/l2bot/archive/2.7.zip"&gt;https://github.com/ellysh/l2bot/archive/2.7.zip&lt;/a&gt;</content><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/8707466986395456102/posts/default/281773293692942680'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/8707466986395456102/posts/default/281773293692942680'/><link rel='alternate' type='text/html' href='http://en-l2bot.blogspot.com/2013/06/release-27.html' title='Release 2.7'/><author><name>Ilya Shpigor</name><uri>http://www.blogger.com/profile/11912242599568868113</uri><email>noreply@blogger.com</email><gd:image rel='http://schemas.google.com/g/2005#thumbnail' width='16' height='16' src='http://img2.blogblog.com/img/b16-rounded.gif'/></author></entry><entry><id>tag:blogger.com,1999:blog-8707466986395456102.post-7407855039075997399</id><published>2013-05-09T23:52:00.001-07:00</published><updated>2013-05-09T23:52:13.852-07:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#post'/><title type='text'>Release 2.6</title><content type='html'>Release 2.6 is available.&lt;br /&gt;&lt;br /&gt;This is list of changes:&lt;br /&gt;1. Implement controlling of position with points in the mini-map&lt;br /&gt;2. Increase delays after the reel and pump actions in the fishing bot&lt;br /&gt;3. Update illustration of the interface configuration &lt;br /&gt;&lt;br /&gt;More information is available in the commits history:&lt;br /&gt;&lt;a href="https://github.com/ellysh/l2bot/commits/2.6"&gt;https://github.com/ellysh/l2bot/commits/2.6&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;This is link to download L2Bot 2.6 version:&lt;br /&gt;&lt;a href="https://github.com/ellysh/l2bot/archive/2.6.zip"&gt;https://github.com/ellysh/l2bot/archive/2.6.zip&lt;/a&gt;</content><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/8707466986395456102/posts/default/7407855039075997399'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/8707466986395456102/posts/default/7407855039075997399'/><link rel='alternate' type='text/html' href='http://en-l2bot.blogspot.com/2013/05/release-26.html' title='Release 2.6'/><author><name>Ilya Shpigor</name><uri>http://www.blogger.com/profile/11912242599568868113</uri><email>noreply@blogger.com</email><gd:image rel='http://schemas.google.com/g/2005#thumbnail' width='16' height='16' src='http://img2.blogblog.com/img/b16-rounded.gif'/></author></entry><entry><id>tag:blogger.com,1999:blog-8707466986395456102.post-8158526090113243591</id><published>2013-04-28T05:04:00.002-07:00</published><updated>2013-04-28T05:04:44.203-07:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#post'/><title type='text'>Release 2.5</title><content type='html'>&lt;span class="userContent" data-ft="{&amp;quot;tn&amp;quot;:&amp;quot;K&amp;quot;}"&gt;Release 2.5 is available.&lt;br /&gt; &lt;br /&gt; This is list of changes:&lt;br /&gt; 1. Fix bug with keys simulation for the Java servers&lt;br /&gt; 2. Implement mechanism of the toggle skills usage &lt;br /&gt; &lt;br /&gt; More information is available in the commits history:&lt;br /&gt; &lt;a href="https://github.com/ellysh/l2bot/commits/2.5" rel="nofollow nofollow" target="_blank"&gt;&lt;span&gt;https://github.com/ellysh/&lt;/span&gt;&lt;wbr&gt;&lt;/wbr&gt;&lt;span class="word_break"&gt;&lt;/span&gt;l2bot/commits/2.5&lt;/a&gt;&lt;br /&gt; &lt;br /&gt; This is link to download L2Bot 2.5 version:&lt;br /&gt; &lt;a href="https://github.com/ellysh/l2bot/archive/2.5.zip" rel="nofollow nofollow" target="_blank"&gt;&lt;span&gt;https://github.com/ellysh/&lt;/span&gt;&lt;wbr&gt;&lt;/wbr&gt;&lt;span class="word_break"&gt;&lt;/span&gt;l2bot/archive/2.5.zip&lt;/a&gt;&lt;/span&gt;</content><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/8707466986395456102/posts/default/8158526090113243591'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/8707466986395456102/posts/default/8158526090113243591'/><link rel='alternate' type='text/html' href='http://en-l2bot.blogspot.com/2013/04/release-25.html' title='Release 2.5'/><author><name>Ilya Shpigor</name><uri>http://www.blogger.com/profile/11912242599568868113</uri><email>noreply@blogger.com</email><gd:image rel='http://schemas.google.com/g/2005#thumbnail' width='16' height='16' src='http://img2.blogblog.com/img/b16-rounded.gif'/></author></entry><entry><id>tag:blogger.com,1999:blog-8707466986395456102.page-4732340730372311693</id><published>2013-07-28T22:53:00.000-07:00</published><updated>2013-07-28T22:53:52.166-07:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#page'/><title type='text'>FAQ</title><content type='html'>&lt;b&gt;Q: How to specify mobs' names for attacking?&lt;/b&gt;&lt;br /&gt;&lt;br /&gt;A: You must open file `conf/targets.au3` in text editor and specify mobs' names. This is enough to specify one or two letters of mobs' name for Gracia Final and upper chronicles. This is example:&lt;br /&gt;global const $kTargetCount = 2&lt;br /&gt;global const $kTargetNames[$kTargetCount] = [ "G", "Wo" ]&lt;br /&gt;&lt;br /&gt;The mobs' names must be specified fully for chronicles below Gracia Final. This is example:&lt;br /&gt;global const $kTargetCount = 2&lt;br /&gt;global const $kTargetNames[$kTargetCount] = [ "Gremlin", "Wolf" ]&lt;br /&gt;&lt;br /&gt;Note that value of the `$kTargetCount` variable must be the same as count of elements in the `$kTargetNames` list.&lt;br /&gt;&lt;br /&gt;&lt;b&gt;Q: How to run L2Bot?&lt;/b&gt;&lt;br /&gt;&lt;br /&gt;A: This is the short instruction:&lt;br /&gt;1. Download and install AutoIt interpreter:&lt;br /&gt;&lt;a href="http://www.autoitscript.com/site/autoit/downloads" target="_blank"&gt;http://www.autoitscript.com/site/autoit/downloads&lt;/a&gt;&lt;br /&gt;2. Run your Lineage client in the window mode. You can press Alt+Enter for switching to the window mode.&lt;br /&gt;3. Run the bot's script from the `run` directory.&lt;br /&gt;4. Switch to the Lineage client window.&lt;br /&gt;5. Press Alt+F2 to start bot.&lt;br /&gt;6. You can stop bot by Alt+F1 pressing.&lt;br /&gt;&lt;br /&gt;You can find &lt;span class="short_text" id="result_box" lang="en"&gt;&lt;span class="hps"&gt;more&lt;/span&gt; &lt;span class="hps"&gt;detailed instructions in the README file:&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;&amp;nbsp;&lt;a href="https://github.com/ellysh/l2bot/blob/master/README.txt" target="_blank" title="https://github.com/ellysh/l2bot/blob/master/README_ru.txt"&gt;https://github.com/ellysh/l2bot/blob/master/README.txt&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;&lt;b&gt;Q: Why the L2Bot scripts need the administrator's privileges in Windows Vista and Windows 7?&lt;/b&gt;&lt;br /&gt;&lt;br /&gt;A: This is a Windows security policy. It is forbidden to send messages from one application to another one without administrator's privileges. L2Bot need to do this for keyboard pressing simulation.&lt;br /&gt;&lt;br /&gt;&lt;b&gt;Q: Where is exe file to launch bots?&lt;/b&gt;&lt;br /&gt;&lt;br /&gt;A: &lt;span class="short_text" id="result_box" lang="en"&gt;&lt;span class="hps"&gt;Such file&lt;/span&gt; &lt;span class="hps"&gt;is missing&lt;/span&gt;&lt;span class=""&gt;. You must launch scripts' files with `au3` extension in the `run` directory. The Autoit &lt;/span&gt;&lt;/span&gt;interpreter is needed to launch same scripts:&lt;br /&gt;&lt;a href="http://www.autoitscript.com/site/autoit/downloads" target="_blank"&gt;http://www.autoitscript.com/site/autoit/downloads&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;&lt;b&gt;Q: How to decrease timeout for attacking and moving to target?&lt;/b&gt;&lt;br /&gt;&lt;br /&gt;A: You can set timeout value in the `$kAttackTimeout` variable in the running bot's script file in the `run` directory. This is example:&lt;br /&gt;global const $kAttackTimeout = 20&lt;br /&gt;&lt;br /&gt;Similary to  `$kAttackTimeout`, you can set timeout for moving to target in the `kMoveTimeout` variable. This is example:&lt;br /&gt;global const $kMoveTimeout = 40&lt;br /&gt;&lt;br /&gt;&lt;b&gt;Q: How to configure bot&amp;nbsp; according to my Lineage client's interface?&lt;/b&gt;&lt;br /&gt;&lt;br /&gt;A: There are steps to perform the interface configuration:&lt;br /&gt;1. Run your Lineage client in the window mode. You can press Alt+Enter for switching to the window mode.&lt;br /&gt;2. Resize the Lineage client window to full screen with mouse.&lt;br /&gt;3. Get into the game with your character.&lt;br /&gt;4. Run `configurator_en.au3` script from the `run` directory.&lt;br /&gt;5. Switch to the Lineage client window.&lt;br /&gt;6. Press Alt+F2 to start configuration script.&lt;br /&gt;7. Select the point in the Lineage window according the information in popup tip. You can select point at the current cursor's position by pressing Alt+F3.&lt;br /&gt;8. The popup tips will be disappeared after you has selected the last point. Configuration is complete.&lt;br /&gt;&lt;br /&gt;This is illustration of all configuration points:&lt;br /&gt;&lt;a href="https://vk.com/photo-46888950_305559943"&gt;https://vk.com/photo-46888950_305559943&lt;/a&gt; &lt;br /&gt;&lt;br /&gt;You can use the `configurator_fishing_en.au3` script from the `run` directory to configure fishing bot. This script works like the described above `configurator_en.au3` one.&lt;br /&gt;&lt;br /&gt;&lt;b&gt;Q: How to enable log file output?&lt;/b&gt;&lt;br /&gt;&lt;br /&gt;A: You must open the `source/debug.au3` file and remove `;` symbol before `FileWrite` function call. The file will be looked like this:&lt;br /&gt;global $kLogFile = "debug.log"&lt;br /&gt;func LogWrite($data)&lt;br /&gt;FileWrite($kLogFile, $data &amp;amp; chr(10))&lt;br /&gt;endfunc&lt;br /&gt;&lt;br /&gt;Run the bot's script after this patching. You will find the `debug.log` file with logs in the `run` directory.&lt;br /&gt;&lt;br /&gt;&lt;b&gt;Q: How to use custom script mechanism?&lt;/b&gt;&lt;br /&gt;&lt;br /&gt;A: The custom script mechanism allow you to extend the functionality of existing farm bots.&lt;br /&gt;&lt;br /&gt;There are steps to perform the custom script generation:&lt;br /&gt;1. Run `script_generator.au3` file from the `run` directory.&lt;br /&gt;2. Press Alt+F2 to start generator script.&lt;br /&gt;3. Perform the keys pressing and mouse clicks that will be saved.&lt;br /&gt;4. Press Alt+F1 to complete the generator script&lt;br /&gt;&lt;br /&gt;NB: The generator script is able to save letters, numbers, F1-F12 buttons and left button mouse clicks. The buttons Alt, Ctrl, Shift and Win will not be saved.&lt;br /&gt;&lt;br /&gt;The generated custom script has been saved in the `script.au3` file in the `run` directory.&lt;br /&gt;&lt;br /&gt;There are steps to launch custom script:&lt;br /&gt;1. Run `script_run.au3` file from the `run` directory.&lt;br /&gt;2. Press Alt+F2 to start custom script.&lt;br /&gt;3. You can interrupt the custom script's work by Alt+F1 pressing&lt;br /&gt;&lt;br /&gt;NB: You can launch custom script in the loop. Change the `kIsLoop` variable to `true` in the `script_run.au3` file:&lt;br /&gt;global const $kIsLoop = true&lt;br /&gt;&lt;br /&gt;All farm bots will launch custom script by timeout. You can change timeout value with the second variable of the `kTimeouts` array in the running farm bot script.&lt;br /&gt;&lt;br /&gt;&lt;b&gt;Q: Does it work for on Innova Official L2?&lt;/b&gt;&lt;br /&gt;&lt;br /&gt;A: Yes, it works!&lt;br /&gt;&lt;br /&gt;But you need two computers or virtual machine to do that.&lt;br /&gt;Idea is to run L2 client and L2Bot on different hosts. You must run L2 client on the first host. Then, connect from second host with Remote Desktop application to the first host. Run L2Bot in the second host and bot will send keyboard pressing to the Remote Desktop window. Frost will not see the bot because these are working in different computers.&lt;br /&gt;&lt;br /&gt;This is a problem with typing `/target` command by bot on official L2 client.&lt;br /&gt;Use the mechanism&amp;nbsp; for searching targets by macros to avoid this problem (see the advice below).&lt;br /&gt;&lt;br /&gt;&lt;b&gt;Q: How to enable mechanism for searching targets by macros?&lt;/b&gt;&lt;br /&gt;&lt;br /&gt;A: This is an instruction:&lt;br /&gt;&lt;br /&gt;1. Set `kIsMacroSearch` variable to `true` value in the farm bot's script from the `run` directory:&lt;br /&gt;global const $kIsMacroSearch = true&lt;br /&gt;&lt;br /&gt;2. Create macros with the `/target` command and place its to the hotbar panel.&lt;br /&gt;&lt;br /&gt;3. Write hot keys with `/target` macros to `kTargetNames` array in the `conf/targets.au3` file.&lt;br /&gt;This is example for the three hotkeys 1, 2 and F3:&lt;br /&gt;global const $kTargetNames[$kTargetCount] = [ "1", "2", "{F3}" ]&lt;br /&gt;&lt;br /&gt;Now bot will be search targets by pressing 1, 2 and F3 hotkeys.&lt;br /&gt;&lt;br /&gt;&lt;b&gt;Q: How to use chat bot?&lt;/b&gt;&lt;br /&gt;&lt;br /&gt;A: This is instruction to configure chat bot:&lt;br /&gt;1. Run `configurator_chat_en.au3` script from the `run` directory.&lt;br /&gt;2. Switch to the Lineage client window.&lt;br /&gt;3. Press Alt+F2 key to start configuration script.&lt;br /&gt;&lt;br /&gt;4. Select the point in the Lineage window according the information in popup tip. You can select point at the current cursor's position by pressing Alt+F3.&lt;br /&gt;&lt;br /&gt;This is illustration of all configuration points:&lt;br /&gt;&lt;a href="https://vk.com/l2bot?z=photo-46888950_306700874%2Falbum-46888950_167386084"&gt;https://vk.com/l2bot?z=photo-46888950_306700874%2Falbum-46888950_167386084&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;5. The popup tips will be disappeared after you has selected the last point.&lt;br /&gt;&lt;br /&gt;6. Open `run/chat.au3` file in the text editor. Specify these variables:&lt;br /&gt;$kMessageTextEn - message text&lt;br /&gt;$kIsPrivateChat - send private messages (true) or common chat (false)&lt;br /&gt;$kDelaySecond - delay between messages sending&lt;br /&gt;&lt;br /&gt;This is instruction to launch chat bot:&lt;br /&gt;1. Run `chat.au3` script from the `run` directory.&lt;br /&gt;2. Switch to the Lineage client window.&lt;br /&gt;3. Press Alt+F2 to start bot.&lt;br /&gt;4. You can stop bot by Alt+F1 pressing.&lt;br /&gt;&lt;br /&gt;&lt;b&gt;Q: How to use healer bot?&lt;/b&gt;&lt;br /&gt;&lt;br /&gt;A: This is instruction to configure chat bot:&lt;br /&gt;1. Run `configurator_healer_en.au3` script from the `run` directory.&lt;br /&gt;2. Switch to the Lineage client window.&lt;br /&gt;3. Press Alt+F2 key to start configuration script.&lt;br /&gt;&lt;br /&gt;4. Select the point in the Lineage window according the information in popup tip. You can select point at the current cursor's position by pressing Alt+F3.&lt;br /&gt;&lt;br /&gt;This is illustration of all configuration points:&lt;br /&gt;&lt;a href="https://vk.com/l2bot?z=photo-46888950_305102628%2Falbum-46888950_167386084"&gt;https://vk.com/l2bot?z=photo-46888950_305102628%2Falbum-46888950_167386084&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;5. The popup tips will be disappeared after you has selected the last point.&lt;br /&gt;&lt;br /&gt;6. Setup hotbar panel according the illustration:&lt;br /&gt;&lt;a href="https://vk.com/l2bot?z=photo-46888950_305102579%2Falbum-46888950_166951422"&gt;https://vk.com/l2bot?z=photo-46888950_305102579%2Falbum-46888950_166951422&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;This is instruction to launch healer bot:&lt;br /&gt;1. Run `healer.au3` script from the `run` directory.&lt;br /&gt;2. Switch to the Lineage client window.&lt;br /&gt;3. Press Alt+F2 to start bot.&lt;br /&gt;4. You can stop bot by Alt+F1 pressing. </content><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/8707466986395456102/pages/default/4732340730372311693'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/8707466986395456102/pages/default/4732340730372311693'/><link rel='alternate' type='text/html' href='http://en-l2bot.blogspot.com/p/faq.html' title='FAQ'/><author><name>Ilya Shpigor</name><uri>http://www.blogger.com/profile/11912242599568868113</uri><email>noreply@blogger.com</email><gd:image rel='http://schemas.google.com/g/2005#thumbnail' width='16' height='16' src='http://img2.blogblog.com/img/b16-rounded.gif'/></author></entry><entry><id>tag:blogger.com,1999:blog-8707466986395456102.page-1309472475085478839</id><published>2013-04-28T10:43:00.002-07:00</published><updated>2013-04-28T10:43:52.067-07:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#page'/><title type='text'>Video</title><content type='html'>&lt;div class="separator" style="clear: both; text-align: center;"&gt;&lt;/div&gt;&lt;div class="separator" style="clear: both; text-align: center;"&gt;&lt;/div&gt;&lt;h4 class="separator" style="clear: both; text-align: center;"&gt;&lt;span class="userContent"&gt;Video with the bot abilities demonstration&lt;/span&gt;&lt;/h4&gt;&lt;h4 class="separator" style="clear: both; text-align: center;"&gt;&lt;span class="userContent"&gt;&amp;nbsp;&lt;/span&gt;&lt;object class="BLOGGER-youtube-video" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0" data-thumbnail-src="http://i.ytimg.com/vi/IKeJ7LCtlWo/0.jpg" height="266" width="320"&gt;&lt;param name="movie" value="http://www.youtube.com/v/IKeJ7LCtlWo?version=3&amp;f=user_uploads&amp;c=google-webdrive-0&amp;app=youtube_gdata" /&gt;&lt;param name="bgcolor" value="#FFFFFF" /&gt;&lt;param name="allowFullScreen" value="true" /&gt;&lt;embed width="320" height="266"  src="http://www.youtube.com/v/IKeJ7LCtlWo?version=3&amp;f=user_uploads&amp;c=google-webdrive-0&amp;app=youtube_gdata" type="application/x-shockwave-flash" allowfullscreen="true"&gt;&lt;/embed&gt;&lt;/object&gt;&lt;/h4&gt;&lt;br /&gt;&lt;h4 class="separator" style="clear: both; text-align: center;"&gt;&lt;span class="userContent"&gt;Video with the configuration manual&lt;/span&gt;&lt;/h4&gt;&lt;div class="separator" style="clear: both; text-align: center;"&gt;&lt;object class="BLOGGER-youtube-video" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0" data-thumbnail-src="http://i.ytimg.com/vi/Sm4gov3Jjac/0.jpg" height="266" width="320"&gt;&lt;param name="movie" value="http://www.youtube.com/v/Sm4gov3Jjac?version=3&amp;f=user_uploads&amp;c=google-webdrive-0&amp;app=youtube_gdata" /&gt;&lt;param name="bgcolor" value="#FFFFFF" /&gt;&lt;param name="allowFullScreen" value="true" /&gt;&lt;embed width="320" height="266"  src="http://www.youtube.com/v/Sm4gov3Jjac?version=3&amp;f=user_uploads&amp;c=google-webdrive-0&amp;app=youtube_gdata" type="application/x-shockwave-flash" allowfullscreen="true"&gt;&lt;/embed&gt;&lt;/object&gt;&lt;/div&gt;&lt;h4 class="separator" style="clear: both; text-align: center;"&gt;&amp;nbsp;&lt;/h4&gt;&lt;h4 class="separator" style="clear: both; text-align: center;"&gt;Rutube version of the same video with better quality&lt;span class="userContent"&gt;:&lt;/span&gt;&lt;/h4&gt;&lt;h4 class="separator" style="clear: both; text-align: center;"&gt;&lt;a href="http://rutube.ru/video/8075fa57d51423e2ed6b35bc3b2c49a4/"&gt;http://rutube.ru/video/8075fa57d51423e2ed6b35bc3b2c49a4/&lt;/a&gt; &lt;/h4&gt;</content><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/8707466986395456102/pages/default/1309472475085478839'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/8707466986395456102/pages/default/1309472475085478839'/><link rel='alternate' type='text/html' href='http://en-l2bot.blogspot.com/p/video.html' title='Video'/><author><name>Ilya Shpigor</name><uri>http://www.blogger.com/profile/11912242599568868113</uri><email>noreply@blogger.com</email><gd:image rel='http://schemas.google.com/g/2005#thumbnail' width='16' height='16' src='http://img2.blogblog.com/img/b16-rounded.gif'/></author></entry><entry><id>tag:blogger.com,1999:blog-8707466986395456102.page-5658453502776681708</id><published>2013-04-28T05:41:00.000-07:00</published><updated>2013-04-28T05:41:07.720-07:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#page'/><title type='text'>Contacts</title><content type='html'>This is project's group at facebook: &lt;br /&gt;&lt;a href="https://www.facebook.com/L2Bot"&gt;https://www.facebook.com/L2Bot&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;This is project's group at vkontakte:&lt;br /&gt;&lt;a href="https://vk.com/l2bot"&gt;https://vk.com/l2bot&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;Developer:&lt;br /&gt;&lt;span class="gbps2"&gt;Ilya Shpigor &amp;lt;&lt;a href="mailto:petrsum@gmail.com"&gt;petrsum@gmail.com&lt;/a&gt;&amp;gt;&lt;/span&gt;&lt;br /&gt;&lt;br /&gt;&lt;span class="text_exposed_show"&gt;Donate:&lt;br /&gt; WebMoney - R407637271686&lt;br /&gt; Yandex money - 410011370352082&lt;/span&gt;</content><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/8707466986395456102/pages/default/5658453502776681708'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/8707466986395456102/pages/default/5658453502776681708'/><link rel='alternate' type='text/html' href='http://en-l2bot.blogspot.com/p/contacts.html' title='Contacts'/><author><name>Ilya Shpigor</name><uri>http://www.blogger.com/profile/11912242599568868113</uri><email>noreply@blogger.com</email><gd:image rel='http://schemas.google.com/g/2005#thumbnail' width='16' height='16' src='http://img2.blogblog.com/img/b16-rounded.gif'/></author></entry><entry><id>tag:blogger.com,1999:blog-8707466986395456102.page-6877392363981082144</id><published>2013-04-28T05:15:00.001-07:00</published><updated>2013-04-28T05:15:50.450-07:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#page'/><title type='text'>Download</title><content type='html'>&lt;span class="text_exposed_show"&gt;This is link to download last bot release:&lt;br /&gt; &lt;a href="https://github.com/ellysh/l2bot/archive/master.zip" rel="nofollow nofollow" target="_blank"&gt;https://github.com/ellysh/l2bot/archive/master.zip&lt;/a&gt;&lt;/span&gt;&lt;br /&gt;&lt;br /&gt;This is project's page on GitHub:&lt;br /&gt;&lt;a href="https://github.com/ellysh/l2bot"&gt;https://github.com/ellysh/l2bot&lt;/a&gt; &lt;br /&gt;&lt;br /&gt;&lt;span class="text_exposed_show"&gt;This is link to download AutoIt interpreter:&lt;/span&gt;&lt;br /&gt;&lt;a href="http://www.autoitscript.com/cgi-bin/getfile.pl?autoit3/autoit-v3-setup.exe"&gt;http://www.autoitscript.com/cgi-bin/getfile.pl?autoit3/autoit-v3-setup.exe&lt;/a&gt;</content><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/8707466986395456102/pages/default/6877392363981082144'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/8707466986395456102/pages/default/6877392363981082144'/><link rel='alternate' type='text/html' href='http://en-l2bot.blogspot.com/p/download.html' title='Download'/><author><name>Ilya Shpigor</name><uri>http://www.blogger.com/profile/11912242599568868113</uri><email>noreply@blogger.com</email><gd:image rel='http://schemas.google.com/g/2005#thumbnail' width='16' height='16' src='http://img2.blogblog.com/img/b16-rounded.gif'/></author></entry><entry><id>tag:blogger.com,1999:blog-8707466986395456102.page-3245106151246837447</id><published>2013-04-28T05:13:00.000-07:00</published><updated>2013-04-28T05:13:27.937-07:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#page'/><title type='text'>About</title><content type='html'>&lt;b&gt;L2Bot&lt;/b&gt; is a free open source scripting bot for Lineage 2. The bot performs the keyboard pressing simulation and pixel analyzing in the Lineage 2 client window. It allow you to farm adena, spoil items, manor, fish and send messages to the chat.&lt;br /&gt;&lt;br /&gt;Features of the L2Bot:&lt;br /&gt;&lt;b&gt;1. Bot is not substitute the Lineage 2 client application.&lt;/b&gt; It can work with any version of the Lineage and with any server.&lt;br /&gt;&lt;b&gt;2. Bot is not intercept server's traffic.&lt;/b&gt; It can not be detected with anti-cheats.&lt;br /&gt;&lt;b&gt;3. L2Bot is an Open Source project.&lt;/b&gt; You can configure and correct the bot's algorithm as your want. Send your patches to developers and these will be included to the next bot's release.&lt;br /&gt;&lt;b&gt;4. Project have GNU GPL license.&lt;/b&gt; This is free software and it will never be commercialized.&lt;br /&gt;&lt;b&gt;5. Bot have been written by simple and free AutoIt language.&lt;/b&gt; You can study and start to work with it quickly.</content><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/8707466986395456102/pages/default/3245106151246837447'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/8707466986395456102/pages/default/3245106151246837447'/><link rel='alternate' type='text/html' href='http://en-l2bot.blogspot.com/p/about.html' title='About'/><author><name>Ilya Shpigor</name><uri>http://www.blogger.com/profile/11912242599568868113</uri><email>noreply@blogger.com</email><gd:image rel='http://schemas.google.com/g/2005#thumbnail' width='16' height='16' src='http://img2.blogblog.com/img/b16-rounded.gif'/></author></entry></feed>
